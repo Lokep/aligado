@@ -1,5 +1,4 @@
 import { defineConfig } from 'dumi';
-
 export default defineConfig({
   title: 'Lokep',
   favicon:
@@ -7,10 +6,10 @@ export default defineConfig({
   logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   outputPath: 'docs',
   mode: 'site',
-  base: "/aligado/",
-  publicPath: "/aligado/",
+  base: '/aligado/',
+  publicPath: '/aligado/',
   resolve: {
-    includes: ['src']
-  }
+    includes: ['src'],
+  },
   // more config: https://d.umijs.org/config
 });
