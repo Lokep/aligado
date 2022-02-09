@@ -27714,7 +27714,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/Vue/index.md',
-                updatedTime: 1644385243639,
+                updatedTime: 1644388396e3,
                 slugs: [{ depth: 1, value: 'vue', heading: 'vue' }],
                 title: 'vue',
                 nav: { path: '/vue', title: 'Vue' },

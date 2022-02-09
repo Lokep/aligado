@@ -1,5 +1,6 @@
 const shell = require('shelljs');
 const fs = require('fs');
+const chalk = require('chalk');
 
 /**
  * Deploys requires git to be installed
@@ -22,8 +23,11 @@ if (fs.existsSync('docs')) {
   shell.exec('rimraf docs');
 }
 
+console.log(chalk.blue('开始打包...'));
 shell.exec('npm run docs:build');
+console.log(chalk.blue('打包完成'));
 shell.exec('git add .');
 shell.exec('git commit -m "docs: update"');
 shell.exec('git push origin master');
-console.log('deploy success');
+
+console.log(chalk.green('deploy success!'));
