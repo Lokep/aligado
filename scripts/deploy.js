@@ -1,6 +1,8 @@
 const shell = require('shelljs');
 const fs = require('fs');
 const chalk = require('chalk');
+const inquirer = require('inquirer');
+const updateCommitRecords = require('./commit');
 
 /**
  * Deploys requires git to be installed
@@ -23,11 +25,37 @@ if (fs.existsSync('docs')) {
   shell.exec('rimraf docs');
 }
 
-console.log(chalk.blue('开始打包...'));
-shell.exec('npm run docs:build');
-console.log(chalk.blue('打包完成'));
-shell.exec('git add .');
-shell.exec('git commit -m "docs: update"');
-shell.exec('git push origin master');
+const username = shell.exec('git config user.name').stdout;
+const mail = shell.exec('git config user.email').stdout;
 
-console.log(chalk.green('deploy success!'));
+const prompt = inquirer.createPromptModule();
+
+prompt([
+  {
+    type: 'input',
+    message: '请输入commit的内容:',
+    name: 'message',
+  },
+]).then(({ message = '' }) => {
+  if (!message) {
+    console.log(chalk.red('请输入commit的内容'));
+    return;
+  }
+
+  updateCommitRecords({
+    commit: new Date().getTime(),
+    author: `${username} <${mail}>`,
+    date: new Date(),
+    message,
+  });
+
+  console.log(chalk.blue('开始打包...'));
+  shell.exec('npm run docs:build');
+  console.log(chalk.blue('打包完成'));
+
+  shell.exec('git add .');
+  shell.exec(`git commit -m "${message}"`);
+  shell.exec('git push origin master');
+
+  console.log(chalk.green('deploy success!'));
+});
