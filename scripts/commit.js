@@ -17,13 +17,14 @@ const handleStdOut = (list) => {
   fs.writeFileSync(OUT_PUT_FILE, JSON.stringify(list));
 };
 
-module.exports = (message) => {
-  shell.exec(COMMANDER, (code, stdout, stderr) => {
-    if (code) {
-      console.log('[stderr]', stderr);
-    } else {
-      console.log('[stdout]', JSON.parse(stdout));
-      handleStdOut([message, ...JSON.parse(stdout)]);
-    }
+module.exports = (message) =>
+  new Promise((resolve) => {
+    shell.exec(COMMANDER, (code, stdout, stderr) => {
+      if (code) {
+        console.log('[stderr]', stderr);
+      } else {
+        handleStdOut([message, ...JSON.parse(stdout)]);
+        resolve();
+      }
+    });
   });
-};

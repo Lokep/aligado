@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/ContributeRecords.less';
 import COMMIT from '../../../src/assets/commit.json';
 import RECOMMAND from '../../../src/assets/recommand.json';
-import { Timeline, Avatar, Space, Card, Link, Typography } from '@arco-design/web-react';
+import { Timeline, Avatar, Space, Card, Image, Typography } from '@arco-design/web-react';
 import { IconArrowRight } from '@arco-design/web-react/icon';
 import dayjs from 'dayjs';
 
@@ -12,8 +12,9 @@ const Content = ({ children, icon, name, url, desc }) => {
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
       <div style={{ display: 'flex', alignItems: 'center', color: '#1D2129' }}>
-        <Avatar style={{ marginRight: 8, backgroundColor: '#165DFF' }} size={28}>
-          <img alt="avatar" src={icon} />
+        <Avatar style={{ marginRight: 8 }} size={28}>
+          {/* <img alt="avatar" src={icon} /> */}
+          <Image width="100%" height="100%" src={icon} alt="avatar" />
         </Avatar>
         <Typography.Text>{name}</Typography.Text>
       </div>

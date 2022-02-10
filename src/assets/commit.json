@@ -1,5 +1,17 @@
 [
   {
+    "commit": 1644481566067,
+    "author": "lokep\n <iamlokep@163.com\n>",
+    "date": "2022-02-10T08:26:06.067Z",
+    "message": "feature: 更新了首页推荐阅读样式"
+  },
+  {
+    "commit": "09ae39e",
+    "author": "lokep <iamlokep@163.com>",
+    "date": "Thu Feb 10 16:17:49 2022 +0800",
+    "message": "chore: 更新了deploy，新增了命令行交互"
+  },
+  {
     "commit": "34691c3",
     "author": "lokep <iamlokep@163.com>",
     "date": "Thu Feb 10 10:11:48 2022 +0800",

@@ -36,13 +36,13 @@ prompt([
     message: '请输入commit的内容:',
     name: 'message',
   },
-]).then(({ message = '' }) => {
+]).then(async ({ message = '' }) => {
   if (!message) {
     console.log(chalk.red('请输入commit的内容'));
     return;
   }
 
-  updateCommitRecords({
+  await updateCommitRecords({
     commit: new Date().getTime(),
     author: `${username} <${mail}>`,
     date: new Date(),
