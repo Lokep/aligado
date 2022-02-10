@@ -1,8 +1,14 @@
 [
   {
-    "commit": 1644481566067,
+    "commit": 1644481907450,
     "author": "lokep\n <iamlokep@163.com\n>",
-    "date": "2022-02-10T08:26:06.067Z",
+    "date": "2022-02-10T08:31:47.450Z",
+    "message": "feature: 更新了首页推荐阅读样式"
+  },
+  {
+    "commit": "f148319",
+    "author": "lokep <iamlokep@163.com>",
+    "date": "Thu Feb 10 16:26:27 2022 +0800",
     "message": "feature: 更新了首页推荐阅读样式"
   },
   {

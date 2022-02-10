@@ -14,7 +14,7 @@ const Content = ({ children, icon, name, url, desc }) => {
       <div style={{ display: 'flex', alignItems: 'center', color: '#1D2129' }}>
         <Avatar style={{ marginRight: 8 }} size={28}>
           {/* <img alt="avatar" src={icon} /> */}
-          <Image width="100%" height="100%" src={icon} alt="avatar" />
+          <Image width="100%" height="100%" src={icon} />
         </Avatar>
         <Typography.Text>{name}</Typography.Text>
       </div>
