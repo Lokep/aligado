@@ -3,6 +3,7 @@ nav:
   title: 设计模式
   order: 4
   sidemenu: false
+toc: menu
 ---
 
 # 设计模式
