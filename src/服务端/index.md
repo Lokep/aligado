@@ -5,8 +5,6 @@ nav:
   sidemenu: false
 ---
 
-- [ ] [计算机通识面试题](https://yuchengkai.cn/docs/cs/)
-- [ ] [面试官：网络五层协议知道吗？](https://mp.weixin.qq.com/s/5pK2VDUYVsWc6zLv7Fqxpw)
 - [ ] [由五层网络模型引发对 TCP 协议丶 DNS 协议 HTTP 协议的思考](https://juejin.cn/post/6844903986215010312?from=groupmessage&isappinstalled=0)
 - [ ] [HTTPS 是如何保证安全的](https://mp.weixin.qq.com/s/UA-NfJWImOLvoiMTDerBQA)
 

@@ -26,7 +26,7 @@ Run test,
 $ npm test
 ```
 
-Build library via `father-build`,
+Build library via `father-build` ,
 
 ```bash
 $ npm run build
