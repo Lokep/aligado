@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/ContributeRecords.less';
 import COMMIT from '../../../src/assets/commit.json';
 import RECOMMAND from '../../../src/assets/recommand.json';
 import { Timeline, Avatar, Space, Card, Image, Typography } from '@arco-design/web-react';

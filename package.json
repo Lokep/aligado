@@ -9,7 +9,7 @@
     "build": "father-build",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
-    "test": "umi-test",
+    "test": "jest",
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build"
   },
@@ -31,21 +31,27 @@
     "react": "^16.12.0 || ^17.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.3",
     "@umijs/fabric": "^2.8.1",
     "@umijs/test": "^3.0.5",
+    "babel-jest": "^27.5.1",
     "chalk": "^4.1.2",
     "dayjs": "^1.10.7",
     "dumi": "^1.1.0",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
     "inquirer": "^8.2.0",
+    "jest": "^27.5.1",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "shelljs": "^0.8.5",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.5.0",
     "yorkie": "^2.0.0"
   }
 }

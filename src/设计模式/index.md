@@ -39,5 +39,5 @@ toc: menu
 - 观察者模式
 - 状态模式
 - 策略模式
-- 模板方法模式
+- 模板方法模式（https://mp.weixin.qq.com/s/4-FulY3A7cjNmc07E2e2aQ）
 - 访问者模式
