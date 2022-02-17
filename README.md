@@ -31,3 +31,5 @@ Build library via `father-build` ,
 ```bash
 $ npm run build
 ```
+
+[markdown 语法](http://itmyhome.com/markdown/index.html)
