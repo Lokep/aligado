@@ -1,6 +1,5 @@
 ---
 order: 1
-toc: menu
 title: JavaScript基础
 ---
 
