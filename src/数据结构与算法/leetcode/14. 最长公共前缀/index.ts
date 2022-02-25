@@ -2,24 +2,25 @@
  * @param {string[]} strs
  * @return {string}
  */
+/**
+ * @param {string[]} strs
+ * @return {string}
+ */
 var longestCommonPrefix = function (strs: string[]): string {
-  if (strs.length === 0) return '';
-
-  if (strs.length === 1) return strs[0];
+  if (strs.length == 0) return '';
 
   let result = strs[0];
 
   for (let i = 1; i < strs.length; i++) {
-    let str = strs[i];
     let j = 0;
-    while (j < result.length && j < str.length) {
-      if (result[j] !== str[j]) {
-        result = result.slice(0, j);
-        break;
-      }
-      j++;
+
+    for (; j < result.length && j < strs[i].length; j++) {
+      if (result[j] != strs[i][j]) break;
     }
-    if (j === 0) return '';
+
+    result = result.substr(0, j);
+
+    if (result === '') return result;
   }
   return result;
 };

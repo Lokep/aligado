@@ -1,6 +1,6 @@
 import longestCommonPrefix from './index';
 
-describe('9. 回文数', () => {
+describe('14. 最长公共前缀', () => {
   it('输入：strs = ["flower","flow","flight"], 输出："fl"', () => {
     expect(longestCommonPrefix(['flower', 'flow', 'flight'])).toBe('fl');
   });

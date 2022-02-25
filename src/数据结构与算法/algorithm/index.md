@@ -1,5 +1,5 @@
 ---
-toc: menu
+order: 1
 ---
 
 # 算法
@@ -19,6 +19,8 @@ toc: menu
 <embed src="./栈与队列.md#L8-L220"></embed>
 
 ### 链表
+
+<embed src="./链表.md#L3-L15"></embed> [详情查看](./链表.md)
 
 ### 集合
 
