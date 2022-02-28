@@ -1,4 +1,4 @@
-import removeElement from '../27. 移除元素/index';
+import removeElement from './index';
 
 describe('27. 移除元素', () => {
   it('输入：nums = [3,2,2,3], val = 3, 输出：2, nums = [2,2]', () => {
