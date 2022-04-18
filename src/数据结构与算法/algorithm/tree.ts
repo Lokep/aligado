@@ -41,4 +41,4 @@ const rawData: IRawData[] = [
   },
 ];
 
-const treeTransfer = (list: IRawData): ITreeNode => {};
+// const treeTransfer = (list: IRawData): ITreeNode => {};
