@@ -1,9 +1,11 @@
 ---
 nav:
-  title: 深入浅出
+  title: JS 基础
   order: 1
 toc: menu
 ---
+
+![ts](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9c2fd85eed8c460ea83ea1f90f49afd5~tplv-k3u1fbpfcp-zoom-in-crop-mark:1304:0:0:0.awebp?)
 
 # 深入浅出
 
@@ -24,3 +26,5 @@ toc: menu
 - [ ] [手写一个 JS 发布订阅模式](https://mp.weixin.qq.com/s/fIzMPMYGOMkjVpTF7cA28A)
 - [ ] [深度解析 new 原理及模拟实现](https://mp.weixin.qq.com/s/1_3Qi5WISN0O7XOfpvcumQ)
 - [ ] [探秘隐藏在对象中的 get 和 set 方法](https://mp.weixin.qq.com/s/oZ_5svu4GvF3LSNFurcjyg)
+
+js 灵魂之问(上):https://juejin.cn/post/6844903974378668039 js 灵魂之问(中):https://juejin.cn/post/6844903986479251464 js 灵魂之问(下):https://juejin.cn/post/6844904004007247880

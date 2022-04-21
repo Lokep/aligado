@@ -1,12 +1,9 @@
----
-order: 1
-toc: menu
----
-
 # TODO
 
 > 在书写时要注意，有的内容只有可能出现在面试过程中，则写在 interview 目录下，其他的内容写在各自的目录下，然后通过 code 的方式引入到 interview 下  
 > 该模块只写题目和答案，题解和知识点写到对应的模块去
+
+[教你如何写初/高级技术岗位简历](https://mp.weixin.qq.com/s/Rwpau4-5fF1ifye-OrVq4g)
 
 - [x] [虾皮、OPPO、富途等十几家公司面经总结](https://mp.weixin.qq.com/s/VCJvl4XO6yMibjNcUVXYUA)
 - [ ] [热乎的小米面经总结](https://mp.weixin.qq.com/s/WleuHH8O_ujI-dO-yo00Kg)
@@ -869,3 +866,116 @@ toc: menu
 415. React setState 之后发生了什么
 
 416. 将一下闭包
+
+自我介绍诸多业务问题项目中主要负责什么原生 js 怎么实现拖放 react-dnd 拖放的核心 API react diff 算法复杂度是多少 diff 造成的非预期更新如何解决如何实现路由监听页面适配方案:百分比,flex,vh,vw 平时对 js 和 css 基础有过了解吗从地址栏输入地址到页面回显,都发生了什么解释下重绘和回流说一下 js 中的类和 java 中的类的区别说一下 js 中如何实现函数重载 webpack 动态加载
+
+node 偏运维方向的有没有了解过(docker k8s) 业务中主要用 node 干了什么 react 生命周期有了解吗说下 react-router 源码你看完后印象深刻的部分数组去重怎么实现,不用 set 怎么实现实现一下 es6 的 extends
+
+js 数据类型和存储方式,如何判断 typeof [] 返回什么 new 操作符 做了什么数组中一万个数据,访问第一个和最后一个效率会有什么差异,为什么 forEach for in for of 的差异如何改变 this 指向 js 中函数是如何调用的说下原型和继承浏览器缓存说下浏览器事件循环 js 是单线程还是多线程,为什么这么设计 css 弧形永动动画实现 css 1px 像素适配 css 设置 div 宽高比 3:4 padding-bottom:75% 说下 transform 和 transition 类数组怎么转换成数组 new Array()接收的参数是什么 get 和 post 的区别 http 状态码 react 生命周期 setState 更新是同步还是异步 axios 源码整体架构手写 Promise.all Promise 中用了什么设计模式 Promise 都有哪些状态算法 12345678.01 =>123,456,78.01 算法 12345678.01=>12,345,678.01 从地址栏输入地址到页面回显,都发生了什么
+
+业务中你用 node 都做了什么你对 node 还有什么想分享的吗,觉得用起来爽的部分(gzip pipe) 业务中数据是怎么存储的,node 为什么没有接入数据库 node 单线程容易崩溃,怎么维护服务的 pm2 内部机制了解吗 cluster 了解多少业务线如何用端口号区分(nginx http-proxy) 业务上有什么坑嘛 (环境多) webpack 常用配置 webpack 插件写过吗 webpack 常用插件关于 webpack 你还有什么想分享的吗 (同步加载异步加载的实现) 浏览器地址栏输入请求地址到页面回显发生了什么重绘和重排了解吗重绘和重排如何做取舍如何将 css 内容插入到页面上(style-loader) 如果让你实现 style-loader,你打算怎么做算法题-手写快排算法题-查找一个字符串中出现次数最多的字符算法复杂度层面比较一下快排和其他排序项目是内部使用吗 (是,未开源) 有没有考虑过高并发场景,如何解决(缓存,压缩,负载均衡,集群) 现在是在职状态吗最后离职日期是多少手上有没有其他 offer 如果今晚三面是否有时间(说有上线,推迟了) 反问一：百度 App 部门有没有使用 node 的场景反问二：App 部门是不是只有移动端场景,有没有其他的,比如 pc 反问三：百度怎么做容灾的反问四：百度 App 是分工明确还是也会出现身兼多职的情况反问五：给我一个今后学习发展的建议和这次面试的简单评价
+
+说一下业务中你负责的部分业务中数据是怎么存储的业务中拖拽如何控制位置的,适配怎么处理,全屏怎么控制你用 nodejs 和 java 分别做了哪些业务业务中的缩略图是什么,实现方案说下 jwt 说下 js 中数据存储方式知道内存碎片怎么产生的吗 v8 post 请求有几种方式触发 post 的 ContentType 类型有哪些(application/x-www-form-urlencoded/multipart/form-data/text/plain) 知道 jwt 有哪些缺点吗说一下 http 和 https 的区别 https 的 tls 了解吗说一下锁(懵逼),举例是读锁和写锁为什么要去看 axios 的源码,大体实现业务中权限是怎么接入的,数据表怎么划分的能说一下 css 盒模型吗说下 box-sizing 中 border-box 和 content-box 的区别 this 指向
+
+算法题 1:节点渲染
+
+算法题 2:属性获取
+
+看你简历有提到 nginx 配置,主要配置了什么说下上线部署流程中常用的 linux 命令 node 的进程守护怎么做的,发现非预期故障怎么排查项目中为什么选择用 nodejs 业务中负责哪些部分手写一个 koa2 的 compose 手写一个 Scheduler 类,实现并发控制
+
+你觉得你擅长哪些技术(react+node+计算机网络) 说一下进程线程,如何通信? 两个线程可以直接通信吗你觉得 node 的适用场景是什么相比其他后台语言,为什么你更倾向 node? 在业务开发上,你觉得 node 和 java 的区别是什么? node 服务的性能监测有没有了解过? http 中间人劫持了解吗?如何解决呢?(说了 https) 为什么 https 可以做到避免中间人劫持?(说了加密层 tls) 展开说一下 tls 握手(对称,非对称,对称+非对称的组合) 加密套件指的是?(举例了 AES) 业务中的安全问题有没有遇到过?怎么解决的?(说了 base64,cors,xss,csrf,cookie 的 httponly 和 samesite 属性) 你倾向的技术领域和业务场景是怎样的? 算法 1:二叉树层序遍历和 s 形的层序遍历算法 2:如何在从左到右升序,从上到下升序,每一行第一个元素大于上一行最后一个元素的二维数组中查找某个数字的索引?如果是一维数组呢? 算法 3:二分法的实现算法 4:单链表反转反问:抖音安全部门主要的业务范围是什么？
+
+业务中数据怎么存储的为什么坚持用 node 算法 1:promise 并发控制算法 2:前 k 个元素 js 中遍历数组的方式 react 中遇到的坑,怎么解决的说一下类组件和函数组件选择 hooks 的优点什么时候用类组件说下 http 缓存,如何实现反问一:这边有没有使用 node 的场景反问二 :业务线中使用的技术栈是什么反问三:有没有 jq 那种老项目反问四:面试评价和今后发展的建议
+
+诸多业务问题 react diff 算法如何实现的,比对复杂度是多少如何使用 react-dnd 完成拖放的,说下主要 API 大数据量场景前端怎么处理,让页面展示尽可能流畅业务中看你有涉及到 node 的文件读写操作,有没有想过如果某个文件被锁怎么处理？前端缩略图(截图)方案是什么业务中的实时保存会有性能开销,又没有做什么优化？ node 转 buffer 输出字符串会比直接 string 输出快,你的依据是什么？算法一:给定一串数字,求它全排列结果算法二:实现类似百度那种联想搜索(模糊匹配) 收尾闲聊:你觉得一面难还是二面难？我说二面吧,数学不太好,全排列没屡清楚。
+
+写个继承案例 Object.create 实现 Object.create 传 null 和{} 有啥区别吗手写 promise(写完 then 后面试官说可以了) 实现一个数组扁平化方法 flat js 为什么设计成单线程事件循环说一下 Promise 里都是微任务吗平时怎么学习的 koa2 中间件和 redux 中间件比较,原理 koa2 的洋葱模型和 redux 中间件的洋葱模型一样吗两个 compose 的大概实现,reduce 的妙用对比一下 express,koa2(我连同比较了 egg) 为什么不要在循环、条件语句或者嵌套方法中调用 Hooks new Promise 返回的实例和实例 then 方法执行后返回的 promise 是一个吗
+
+说一下为什么要用 hooks,解决了什么问题 react 函数组件和类组件触发更新的方式有哪些 react 的强制更新有了解吗 react 在一秒内点击按钮多次(+1),如何获取最后一次的新状态 react-router 权限路由写一下实现一个带缓存的求阶乘函数说说你对 koa2 中间件的理解某些接口允许跨域,某些不允许,如何实现?能不能使用 koa2 中间件的方式实现一下? koa2 中 ctx.set 的等价写法用 node 如何实现一个带压缩和缓存的 http-server？
+
+如果有成熟稳定的 A 团队和从 0 到 1 的 B 团队,你倾向哪种如果 B 团队做不好有可能会因为业绩不达标被砍掉,做的好会有高收益,A 团队一直是稳定的,你倾向哪种 A 团队业务线偏向底层功能开发,为 B 团队服务。B 团队在 A 团队产出基础上,会面对更多复杂业务,你倾向哪种反问 1:刚才提到的 AB 部门的业务覆盖场景是只有 pc 端吗?还是也有其他端? 反问 2:工作模式是否为导师制?
+
+项目中常用的 linux 命令业务中打包怎么做的如何查询某个进程占用的端口号(linux 中) netstat -tunlp|grep 80 lsof -i:80 实现一个 new 操作符 git reset 和 git rebase 了解吗实现 Object.create 实现数组扁平化函数 flat webpack 有哪些优化方案 loader 和 plugin 有写过吗 react 合成事件了解吗？这些事件处理函数最终挂载到了哪？ react 中如何阻止冒泡 react 中 setState 同步还是异步 react15 和 react16 更新机制的差异为什么 react16 架构升级后就能中断更新,根据什么决定是否中断 react 源码看过哪些？ react 中调和的部分是在哪个包?有看过实现吗 hooks 为什么不能在条件或循环中使用,原理清楚吗？ react 为什么要引入 hooks,解决了哪些问题类组件如何实现逻辑复用
+
+js 为什么会有回调地狱呢为什么 java 没有回调地狱 promise.all 返回的是什么 promise 和 async 你觉得差异点是什么算法 1:rgb 转 16 进制函数
+
+koa-compose 实现 react 权限路由实现前端路由实现原理(对比 react,vue) 单页面应用和传统服务端渲染的差异比较前端页面性能优化 nginx 负载均衡配置 node 端处理大文件上传 react hooks 用过哪些 react 使用心得 redux 模板语法的改良(使用装饰器) 聊一下代码检查(eslint,ts) 防抖节流区分,手写实现 map,reduce 统计字符串中次数最多字母
+
+如何区分函数是 new 调用还是直接调用
+
+解释下下面两段代码执行结果的差异
+
+```javascript
+function foo() {
+  foo();
+}
+function foo() {
+  setTimeout(() => {
+    foo();
+  }, 0);
+}
+```
+
+requestAnimationFrame 和 requestIdleCallback 了解吗说下 react 的 key node 中加载相同模块,会重复打印吗
+
+````JS
+//a.js
+function foo() {
+    console.log('foo'); //
+ }
+foo();
+//b.js
+require('./a.js');
+require('./a.js');
+//node b.js
+```
+
+
+如何设计这套缓存
+http模块起一个服务,如果想修改请求体并转发给另一个服务,怎么实现
+说下react-redux干了什么事
+mapStateToProps的第二个参数作用
+实现一个Map
+说下react常用的性能优化手段
+linux中exec ls 和ls 差异
+linux 中的source了解吗
+
+
+
+能说一下你用mvc模式重构node业务代码的大概方向和效果吗
+说下跨域
+这个项目里前后端联调的话,有问题一般怎么排查(表示基本都是自己写)
+追问:为什么是都要自己写呢?(相对偏向全栈,人少)
+感觉你个人比较喜欢node,是想往这个方向发展吗
+对技术栈或新技术上是怎样的一个态度
+项目中写的css多吗,主要是哪些？(说了less,css,styled-components)
+有没有接触过移动端,小程序,App这些场景
+
+
+说下你擅长的
+解释下重绘和回流
+说一下你知道的浏览器渲染相关的点
+你觉得有哪些优势
+平时怎么学习的
+说下tls握手
+还有在面其他公司吗？
+前端如何做性能优化
+算法1:数组中出现最多的数字
+算法2:斐波那契数列
+
+
+
+卡颂的react技术揭秘:https://react.iamkasong.com/
+若川的源码系列:https://juejin.cn/user/1415826704971918/posts
+难凉热血的vue源码分析:https://nlrx-wjc.github.io/Learn-Vue-Source-Code/
+数据结构与算法之美:https://time.geekbang.org/column/intro/100017301
+政采云团队的博客--算法篇:https://101.zoo.team/
+天天的前端算法总结:https://juejin.cn/post/6900698814093459463
+ssh的前端算法进阶指南:https://juejin.cn/post/6847009772500156429
+修言算法小册:https://juejin.cn/book/6844733800300150797
+谢希仁的计算机网络:https://item.jd.com/12219883.html
+神三元的http灵魂之问:https://juejin.cn/post/6844904100035821575
+浏览器专栏:https://time.geekbang.org/column/intro/100033601
+nginx笔记:https://blog.csdn.net/qq_42813491/article/details/103117799?ops_request_misc=%25257B%252522request%25255Fid%252522%25253A%252522160938095216780302981460%252522%25252C%252522scm%252522%25253A%25252220140713.130102334.pc%25255Fblog.%252522%25257D&request_id=160938095216780302981460&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_v29-1-103117799.pc_v2_rank_blog_default&utm_term=nginx
+linux笔记:https://blog.csdn.net/qq_42813491/article/details/88379799
+````

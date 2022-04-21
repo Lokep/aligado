@@ -4,6 +4,8 @@ title: HTTP 与 HTTPS 的区别
 
 # HTTP 与 HTTPS 的区别
 
+- [ ] [HTTPS 是如何保证安全的](https://mp.weixin.qq.com/s/UA-NfJWImOLvoiMTDerBQA)
+
 ## HTTP
 
 **特点：无连接、无状态、灵活、简单快速**
