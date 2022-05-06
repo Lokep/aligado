@@ -378,7 +378,7 @@ wx.onAppRoute((res) => {
 
 ![dependence-analysis](@/assets/dependence-analysis-2.png)
 
-完美！手工！加鸡腿！
+完美！收工！加鸡腿！
 
 ## 结尾
 
