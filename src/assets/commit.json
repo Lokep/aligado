@@ -1,8 +1,14 @@
 [
   {
-    "commit": 1651810606998,
+    "commit": 1651810792506,
     "author": "lokep\n <iamlokep@163.com\n>",
-    "date": "2022-05-06T04:16:46.998Z",
+    "date": "2022-05-06T04:19:52.506Z",
+    "message": "docs: uni-app开发技巧"
+  },
+  {
+    "commit": "88dd1a4",
+    "author": "lokep <iamlokep@163.com>",
+    "date": "Fri May 6 12:17:15 2022 +0800",
     "message": "docs: uni-app开发技巧"
   },
   {

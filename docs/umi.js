@@ -1082,7 +1082,7 @@
               ' \u7684\u7f29\u5199\u3002\u7ecf\u5e38\u6211\u4eec\u8fd9\u4e48\u4f7f\u7528\uff1a',
             ),
             r.a.createElement(i['a'], {
-              code: "// importing \nconst doSomething = require('./doSomething.js');\n\n// exporting\nmodule.exports = function doSomething(n) {\n  // do something\n}",
+              code: "// importing\nconst doSomething = require('./doSomething.js');\n\n// exporting\nmodule.exports = function doSomething(n) {\n  // do something\n};",
               lang: 'javascript',
             }),
             r.a.createElement(
@@ -1148,12 +1148,12 @@
               ' \u4ee3\u8868\u5f02\u6b65\u6a21\u5757\u5b9a\u4e49\u3002\u4e0b\u9762\u662f\u4e00\u4e2a\u793a\u4f8b\u4ee3\u7801',
             ),
             r.a.createElement(i['a'], {
-              code: "define(['dep1', 'dep2'], function(dep1, dep2) {\n  //Define the module value by returning a value.\n  return function() {};\n});",
+              code: "define(['dep1', 'dep2'], function (dep1, dep2) {\n  //Define the module value by returning a value.\n  return function () {};\n});",
               lang: 'javascript',
             }),
             r.a.createElement('p', null, r.a.createElement('strong', null, '\u6216')),
             r.a.createElement(i['a'], {
-              code: "// \"simplified CommonJS wrapping\" https://requirejs.org/docs/whyamd.html\ndefine(function(require) {\n  var dep1 = require('dep1'),\n    dep2 = require('dep2');\n  return function() {};\n});",
+              code: "// \"simplified CommonJS wrapping\" https://requirejs.org/docs/whyamd.html\ndefine(function (require) {\n  var dep1 = require('dep1'),\n    dep2 = require('dep2');\n  return function () {};\n});",
               lang: 'javascript',
             }),
             r.a.createElement(
@@ -1278,7 +1278,7 @@
               r.a.createElement(
                 'li',
                 null,
-                '\u5f97\u76ca\u4e8e ES6 \u7684\u9759\u6001\u6a21\u5757\u7ed3\u6784\uff0c\u53ef\u4ee5\u8fdb\u884c  Tree Shaking',
+                '\u5f97\u76ca\u4e8e ES6 \u7684\u9759\u6001\u6a21\u5757\u7ed3\u6784\uff0c\u53ef\u4ee5\u8fdb\u884c Tree Shaking',
               ),
               r.a.createElement(
                 'li',
@@ -1292,7 +1292,7 @@
               ),
             ),
             r.a.createElement(i['a'], {
-              code: '<script type="module">\n  import {func1} from \'my-lib\';\n\n  func1();\n</script>',
+              code: '<script type="module">import {func1} from \'my-lib\'; func1();</script>',
               lang: 'javascript',
             }),
             r.a.createElement(
@@ -2772,7 +2772,7 @@
                 r.a.createElement(
                   l['Link'],
                   { to: 'https://juejin.cn/post/7078118784266928158' },
-                  'reactive\u3001ref\u76f8\u5173api\u6e90\u7801\u5b9e\u73b0',
+                  'reactive\u3001ref \u76f8\u5173 api \u6e90\u7801\u5b9e\u73b0',
                 ),
               ),
               r.a.createElement(
@@ -2781,7 +2781,7 @@
                 r.a.createElement(
                   l['Link'],
                   { to: 'https://juejin.cn/post/7071978771808518180' },
-                  '\u770b\u5b8cvue3\uff0c\u6211\u5bf9ref, refs ,reactive,\u4e0e toRefs \u7684\u4e00\u70b9\u601d\u8003\uff1f',
+                  '\u770b\u5b8c vue3\uff0c\u6211\u5bf9 ref, refs ,reactive,\u4e0e toRefs \u7684\u4e00\u70b9\u601d\u8003\uff1f',
                 ),
               ),
             ),
@@ -4449,13 +4449,13 @@
               { className: 'markdown' },
               r.a.createElement(
                 'h1',
-                { id: 'vite\u5f15\u7528md\u6587\u4ef6' },
+                { id: 'vite-\u5f15\u7528-md-\u6587\u4ef6' },
                 r.a.createElement(
                   l['AnchorLink'],
-                  { to: '#vite\u5f15\u7528md\u6587\u4ef6', 'aria-hidden': 'true', tabIndex: -1 },
+                  { to: '#vite-\u5f15\u7528-md-\u6587\u4ef6', 'aria-hidden': 'true', tabIndex: -1 },
                   r.a.createElement('span', { className: 'icon icon-link' }),
                 ),
-                'Vite\u5f15\u7528md\u6587\u4ef6',
+                'Vite \u5f15\u7528 md \u6587\u4ef6',
               ),
               r.a.createElement(
                 'h2',
@@ -15681,7 +15681,7 @@
                 r.a.createElement(
                   l['Link'],
                   { to: 'https://juejin.cn/post/7063282882344648712' },
-                  '\u67b6\u6784keep-alive\u6838\u5fc3\u6e90\u7801\u5206\u6790',
+                  '\u67b6\u6784 keep-alive \u6838\u5fc3\u6e90\u7801\u5206\u6790',
                 ),
               ),
             ),
@@ -18346,7 +18346,7 @@
               r.a.createElement(
                 'p',
                 null,
-                'Webpack\u672c\u8d28\u4e0a\u4e00\u79cd\u57fa\u4e8e\u4e8b\u4ef6\u6d41\u7684\u7f16\u7a0b\u8303\u4f8b\uff0c\u5176\u5b9e\u5c31\u662f\u4e00\u7cfb\u5217\u7684\u63d2\u4ef6\u8fd0\u884c\u3002',
+                'Webpack \u672c\u8d28\u4e0a\u4e00\u79cd\u57fa\u4e8e\u4e8b\u4ef6\u6d41\u7684\u7f16\u7a0b\u8303\u4f8b\uff0c\u5176\u5b9e\u5c31\u662f\u4e00\u7cfb\u5217\u7684\u63d2\u4ef6\u8fd0\u884c\u3002',
               ),
             ),
             r.a.createElement(
@@ -22342,7 +22342,7 @@
   },
   'IQ+j': function (e) {
     e.exports = JSON.parse(
-      '[{"commit":1651810606998,"author":"lokep\\n <iamlokep@163.com\\n>","date":"2022-05-06T04:16:46.998Z","message":"docs: uni-app\u5f00\u53d1\u6280\u5de7"},{"commit":"d85b3da","author":"lokep <iamlokep@163.com>","date":"Fri Apr 22 00:14:33 2022 +0800","message":"docs: webpack \u4e3b\u9898"},{"commit":"a8855bf","author":"lokep <iamlokep@163.com>","date":"Thu Apr 21 00:49:50 2022 +0800","message":"docs: HTTP\u76f8\u5173\u5185\u5bb9"},{"commit":"afd67c4","author":"lokep <iamlokep@163.com>","date":"Mon Apr 18 20:11:34 2022 +0800","message":"docs: update"},{"commit":"541b44e","author":"lokep <iamlokep@163.com>","date":"Fri Mar 11 09:46:29 2022 +0800","message":"chore: \u6dfb\u52a0\u7ad9\u957f\u5de5\u5177"},{"commit":"73b6910","author":"lokep <iamlokep@163.com>","date":"Fri Mar 11 09:46:19 2022 +0800","message":"docs: \u7b97\u6cd5 update"},{"commit":"418d95c","author":"lokep <iamlokep@163.com>","date":"Mon Feb 28 18:51:33 2022 +0800","message":"docs: update"},{"commit":"946479c","author":"lokep <iamlokep@163.com>","date":"Mon Feb 28 18:50:17 2022 +0800","message":"docs: \u66f4\u65b0\u6587\u6863"},{"commit":"3cd0977","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 18:23:24 2022 +0800","message":"feat: \u66f4\u65b0\u7b97\u6cd5\u76f8\u5173\u6587\u6863"},{"commit":"0efbf69","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 09:59:01 2022 +0800","message":"feat: \u66f4\u65b0leetcode\u9898\u76ee"},{"commit":"6eb0e4a","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 09:58:31 2022 +0800","message":"feat: \u66f4\u65b0vue\u6846\u67b6\u76f8\u5173\u77e5\u8bc6"},{"commit":"4208e67","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 09:57:50 2022 +0800","message":"feat: \u66f4\u65b0interview\u6a21\u5757\u7684\u5185\u5bb9\uff0c\u4e3b\u8981\u4e3avue\u548cjs"},{"commit":"111b656","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 09:57:03 2022 +0800","message":"assets: \u7b80\u5386"},{"commit":"0025a74","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 09:56:39 2022 +0800","message":"chore: \u963b\u6b62\u5bf9\u5bf9\u8c61\u5b57\u9762\u91cf\u7684\u989d\u5916\u5c5e\u6027\u68c0\u67e5\u3002"},{"commit":"8b5b1be","author":"lokep <iamlokep@163.com>","date":"Thu Feb 17 15:02:38 2022 +0800","message":"feat: \u5b8c\u6210\u4e00\u7bc7\u6587\u7ae0\u7684\u6458\u6284"},{"commit":"4680e31","author":"lokep <iamlokep@163.com>","date":"Thu Feb 17 15:02:03 2022 +0800","message":"feat: \u5b8c\u6210\u4e00\u7bc7\u6587\u7ae0\u7684\u6458\u6284"},{"commit":"ba952f1","author":"lokep <iamlokep@163.com>","date":"Wed Feb 16 14:01:38 2022 +0800","message":"feat: \u6dfb\u52a0interview\u6a21\u5757\u7684\u5185\u5bb9"},{"commit":"2c66ece","author":"lokep <iamlokep@163.com>","date":"Wed Feb 16 11:26:01 2022 +0800","message":"feat: update the interview module"},{"commit":"5b71180","author":"lokep <iamlokep@163.com>","date":"Thu Feb 10 16:32:09 2022 +0800","message":"feature: \u66f4\u65b0\u4e86\u9996\u9875\u63a8\u8350\u9605\u8bfb\u6837\u5f0f"},{"commit":"f148319","author":"lokep <iamlokep@163.com>","date":"Thu Feb 10 16:26:27 2022 +0800","message":"feature: \u66f4\u65b0\u4e86\u9996\u9875\u63a8\u8350\u9605\u8bfb\u6837\u5f0f"},{"commit":"09ae39e","author":"lokep <iamlokep@163.com>","date":"Thu Feb 10 16:17:49 2022 +0800","message":"chore: \u66f4\u65b0\u4e86deploy\uff0c\u65b0\u589e\u4e86\u547d\u4ee4\u884c\u4ea4\u4e92"},{"commit":"34691c3","author":"lokep <iamlokep@163.com>","date":"Thu Feb 10 10:11:48 2022 +0800","message":"docs: update"},{"commit":"5a080df","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 18:01:28 2022 +0800","message":"docs: update"},{"commit":"49a1d77","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 16:47:46 2022 +0800","message":"docs: update"},{"commit":"992293c","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 14:52:07 2022 +0800","message":"docs: update"},{"commit":"7e05ff0","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 14:33:16 2022 +0800","message":"docs: update"},{"commit":"ebbdd1b","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 12:50:42 2022 +0800","message":"init"},{"commit":"91bc8d4","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 12:45:26 2022 +0800","message":"init"},{"commit":"537a813","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 11:59:32 2022 +0800","message":"init"},{"commit":"35543fa","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 11:53:04 2022 +0800","message":"init"},{"commit":"94e4ade","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 11:26:04 2022 +0800","message":"init"},{"commit":"3f884e7","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 11:22:40 2022 +0800","message":"init"}]',
+      '[{"commit":1651810792506,"author":"lokep\\n <iamlokep@163.com\\n>","date":"2022-05-06T04:19:52.506Z","message":"docs: uni-app\u5f00\u53d1\u6280\u5de7"},{"commit":"88dd1a4","author":"lokep <iamlokep@163.com>","date":"Fri May 6 12:17:15 2022 +0800","message":"docs: uni-app\u5f00\u53d1\u6280\u5de7"},{"commit":"d85b3da","author":"lokep <iamlokep@163.com>","date":"Fri Apr 22 00:14:33 2022 +0800","message":"docs: webpack \u4e3b\u9898"},{"commit":"a8855bf","author":"lokep <iamlokep@163.com>","date":"Thu Apr 21 00:49:50 2022 +0800","message":"docs: HTTP\u76f8\u5173\u5185\u5bb9"},{"commit":"afd67c4","author":"lokep <iamlokep@163.com>","date":"Mon Apr 18 20:11:34 2022 +0800","message":"docs: update"},{"commit":"541b44e","author":"lokep <iamlokep@163.com>","date":"Fri Mar 11 09:46:29 2022 +0800","message":"chore: \u6dfb\u52a0\u7ad9\u957f\u5de5\u5177"},{"commit":"73b6910","author":"lokep <iamlokep@163.com>","date":"Fri Mar 11 09:46:19 2022 +0800","message":"docs: \u7b97\u6cd5 update"},{"commit":"418d95c","author":"lokep <iamlokep@163.com>","date":"Mon Feb 28 18:51:33 2022 +0800","message":"docs: update"},{"commit":"946479c","author":"lokep <iamlokep@163.com>","date":"Mon Feb 28 18:50:17 2022 +0800","message":"docs: \u66f4\u65b0\u6587\u6863"},{"commit":"3cd0977","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 18:23:24 2022 +0800","message":"feat: \u66f4\u65b0\u7b97\u6cd5\u76f8\u5173\u6587\u6863"},{"commit":"0efbf69","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 09:59:01 2022 +0800","message":"feat: \u66f4\u65b0leetcode\u9898\u76ee"},{"commit":"6eb0e4a","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 09:58:31 2022 +0800","message":"feat: \u66f4\u65b0vue\u6846\u67b6\u76f8\u5173\u77e5\u8bc6"},{"commit":"4208e67","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 09:57:50 2022 +0800","message":"feat: \u66f4\u65b0interview\u6a21\u5757\u7684\u5185\u5bb9\uff0c\u4e3b\u8981\u4e3avue\u548cjs"},{"commit":"111b656","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 09:57:03 2022 +0800","message":"assets: \u7b80\u5386"},{"commit":"0025a74","author":"lokep <iamlokep@163.com>","date":"Fri Feb 25 09:56:39 2022 +0800","message":"chore: \u963b\u6b62\u5bf9\u5bf9\u8c61\u5b57\u9762\u91cf\u7684\u989d\u5916\u5c5e\u6027\u68c0\u67e5\u3002"},{"commit":"8b5b1be","author":"lokep <iamlokep@163.com>","date":"Thu Feb 17 15:02:38 2022 +0800","message":"feat: \u5b8c\u6210\u4e00\u7bc7\u6587\u7ae0\u7684\u6458\u6284"},{"commit":"4680e31","author":"lokep <iamlokep@163.com>","date":"Thu Feb 17 15:02:03 2022 +0800","message":"feat: \u5b8c\u6210\u4e00\u7bc7\u6587\u7ae0\u7684\u6458\u6284"},{"commit":"ba952f1","author":"lokep <iamlokep@163.com>","date":"Wed Feb 16 14:01:38 2022 +0800","message":"feat: \u6dfb\u52a0interview\u6a21\u5757\u7684\u5185\u5bb9"},{"commit":"2c66ece","author":"lokep <iamlokep@163.com>","date":"Wed Feb 16 11:26:01 2022 +0800","message":"feat: update the interview module"},{"commit":"5b71180","author":"lokep <iamlokep@163.com>","date":"Thu Feb 10 16:32:09 2022 +0800","message":"feature: \u66f4\u65b0\u4e86\u9996\u9875\u63a8\u8350\u9605\u8bfb\u6837\u5f0f"},{"commit":"f148319","author":"lokep <iamlokep@163.com>","date":"Thu Feb 10 16:26:27 2022 +0800","message":"feature: \u66f4\u65b0\u4e86\u9996\u9875\u63a8\u8350\u9605\u8bfb\u6837\u5f0f"},{"commit":"09ae39e","author":"lokep <iamlokep@163.com>","date":"Thu Feb 10 16:17:49 2022 +0800","message":"chore: \u66f4\u65b0\u4e86deploy\uff0c\u65b0\u589e\u4e86\u547d\u4ee4\u884c\u4ea4\u4e92"},{"commit":"34691c3","author":"lokep <iamlokep@163.com>","date":"Thu Feb 10 10:11:48 2022 +0800","message":"docs: update"},{"commit":"5a080df","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 18:01:28 2022 +0800","message":"docs: update"},{"commit":"49a1d77","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 16:47:46 2022 +0800","message":"docs: update"},{"commit":"992293c","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 14:52:07 2022 +0800","message":"docs: update"},{"commit":"7e05ff0","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 14:33:16 2022 +0800","message":"docs: update"},{"commit":"ebbdd1b","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 12:50:42 2022 +0800","message":"init"},{"commit":"91bc8d4","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 12:45:26 2022 +0800","message":"init"},{"commit":"537a813","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 11:59:32 2022 +0800","message":"init"},{"commit":"35543fa","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 11:53:04 2022 +0800","message":"init"},{"commit":"94e4ade","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 11:26:04 2022 +0800","message":"init"},{"commit":"3f884e7","author":"\u697c\u5929\u6960 <tnlou@justhealth.cn>","date":"Wed Feb 9 11:22:40 2022 +0800","message":"init"}]',
     );
   },
   IVUx: function (e, t, n) {
@@ -42919,7 +42919,7 @@
               r.a.createElement(
                 'p',
                 null,
-                'vite \u4f7f\u7528import.meta.glob\u52a8\u6001\u6dfb\u52a0vue\u9875\u9762',
+                'vite \u4f7f\u7528 import.meta.glob \u52a8\u6001\u6dfb\u52a0 vue \u9875\u9762',
               ),
               r.a.createElement(
                 'p',
@@ -52820,54 +52820,55 @@
             r.a.createElement(
               'p',
               null,
-              '\u4e00\u9762 \u6280\u672f\u9009\u578b\u662f\u600e\u4e48\u8003\u8651\u7684 \u56e2\u961f\u7ba1\u7406\u662f\u600e\u4e48\u8003\u8651\u7684\uff0c\u4e3e\u4e00\u4e2a case \u957f\u671f\u9700\u6c42\u95ee\u9898\u548c\u77ed\u671f\u9700\u6c42\u95ee\u9898\u78b0\u5230\u4e86\u54ea\u4e9b \u4f60\u662f\u5982\u4f55\u5b89\u6392\u5f00\u53d1\u5de5\u4f5c\u7684\uff0c\u8bf7\u8be6\u7ec6\u804a\u804a \u600e\u4e48\u628a\u63a7\u5f00\u53d1\u8fdb\u5ea6\u3001\u8bc4\u4f30\u98ce\u9669 \u5982\u4f55\u91c7\u96c6\u7528\u6237\u884c\u4e3a React \u548c Vue \u7684\u5bf9\u6bd4\uff1a\u6211\u662f\u4ece\u6027\u80fd\u89d2\u5ea6\u5206\u6790\u7684 \u5c0f\u7a0b\u5e8f H5 \u573a\u666f\u9898\uff1a\u73b0\u5728\u6709\u4e00\u4e2a\u7f51\u9875\u6253\u5f00\u5f88\u6162\uff0c\u8981\u8fd9\u4e48\u5b9a\u4f4d \u7f16\u7a0b\u9898\uff1a\u5b9e\u73b0 EventEmitter \u53cd\u95ee\u73af\u8282\uff1a \u5927\u5382\u4e3b\u8981\u770b\u4e2d\u5019\u9009\u4eba\u7684\u54ea\u4e9b\u54c1\u8d28\uff1a\u6280\u672f\u6df1\u5ea6\u3001\u5e7f\u5ea6\u3001\u9879\u76ee\u7ba1\u7406\u3001\u9879\u76ee\u7406\u89e3\u529b \u662f\u5426\u65b9\u4fbf\u7ed9\u6253\u5206\uff1a\u4e0d\u662f\u5f88\u65b9\u4fbf\uff0c\u4e0d\u8fc7\u53ef\u4ee5\u900f\u9732\u4e00\u4e9b\uff0c\u7531\u4e8e\u5de5\u4f5c\u7684\u539f\u56e0\u6709\u4e9b\u6280\u672f\u5b9e\u8df5\u4e0d\u4e86\u4e4b\u5916\uff0c\u770b\u5f97\u51fa\u6765\u662f\u6709\u610f\u8bc6\u7684\u5728\u79ef\u7d2f\u6280\u672f\uff0c\u5f88\u6709\u6f5c\u529b\u3002',
+              '\u4e00\u9762\u6280\u672f\u9009\u578b\u662f\u600e\u4e48\u8003\u8651\u7684\u56e2\u961f\u7ba1\u7406\u662f\u600e\u4e48\u8003\u8651\u7684\uff0c\u4e3e\u4e00\u4e2a case \u957f\u671f\u9700\u6c42\u95ee\u9898\u548c\u77ed\u671f\u9700\u6c42\u95ee\u9898\u78b0\u5230\u4e86\u54ea\u4e9b\u4f60\u662f\u5982\u4f55\u5b89\u6392\u5f00\u53d1\u5de5\u4f5c\u7684\uff0c\u8bf7\u8be6\u7ec6\u804a\u804a\u600e\u4e48\u628a\u63a7\u5f00\u53d1\u8fdb\u5ea6\u3001\u8bc4\u4f30\u98ce\u9669\u5982\u4f55\u91c7\u96c6\u7528\u6237\u884c\u4e3a React \u548c Vue \u7684\u5bf9\u6bd4\uff1a\u6211\u662f\u4ece\u6027\u80fd\u89d2\u5ea6\u5206\u6790\u7684\u5c0f\u7a0b\u5e8f H5 \u573a\u666f\u9898\uff1a\u73b0\u5728\u6709\u4e00\u4e2a\u7f51\u9875\u6253\u5f00\u5f88\u6162\uff0c\u8981\u8fd9\u4e48\u5b9a\u4f4d\u7f16\u7a0b\u9898\uff1a\u5b9e\u73b0 EventEmitter \u53cd\u95ee\u73af\u8282\uff1a\u5927\u5382\u4e3b\u8981\u770b\u4e2d\u5019\u9009\u4eba\u7684\u54ea\u4e9b\u54c1\u8d28\uff1a\u6280\u672f\u6df1\u5ea6\u3001\u5e7f\u5ea6\u3001\u9879\u76ee\u7ba1\u7406\u3001\u9879\u76ee\u7406\u89e3\u529b\u662f\u5426\u65b9\u4fbf\u7ed9\u6253\u5206\uff1a\u4e0d\u662f\u5f88\u65b9\u4fbf\uff0c\u4e0d\u8fc7\u53ef\u4ee5\u900f\u9732\u4e00\u4e9b\uff0c\u7531\u4e8e\u5de5\u4f5c\u7684\u539f\u56e0\u6709\u4e9b\u6280\u672f\u5b9e\u8df5\u4e0d\u4e86\u4e4b\u5916\uff0c\u770b\u5f97\u51fa\u6765\u662f\u6709\u610f\u8bc6\u7684\u5728\u79ef\u7d2f\u6280\u672f\uff0c\u5f88\u6709\u6f5c\u529b\u3002',
             ),
             r.a.createElement(
               'p',
               null,
-              '\u4e8c\u9762 \u770b\u4f60\u7b80\u5386\uff0c\u4f60\u8bf4\u7528 Hooks \u66ff\u6362 Function\uff0c\u7528 TS \u91cd\u6784 js\uff0c\u8bf7\u8be6\u7ec6\u804a\u4e00\u4e0b\u4f60\u662f\u600e\u4e48\u60f3\u7684 inline \u5143\u7d20\u4e2d\u54ea\u4e9b\u5c5e\u6027\u751f\u6548\uff1awidth\u3001height\u3001padding\u3001margin relative \u5143\u7d20\u662f\u600e\u4e48\u5b9a\u4f4d\u7684 \u4e00\u4e2a\u975e\u5b9a\u9ad8\u3001\u975e\u5b9a\u5bbd\u7684\u5143\u7d20\u5982\u4f55\u5b9e\u73b0\u5728\u7a97\u53e3\u5782\u76f4\u5c45\u4e2d\u3001\u5de6\u53f3\u5c45\u4e2d content-length \u7684\u542b\u4e49 cookie \u548c localStorage \u7684\u533a\u522b addEventListener \u7684\u6267\u884c\u987a\u5e8f \u5982\u679c\u4f7f\u7528 useCapture = true, \u4e00\u4e2a div \u91cc\u9762\u5305\u542b\u4e00\u4e2a Button\uff0c2 \u4e2a\u5143\u7d20\u90fd\u7ed1\u5b9a\u70b9\u51fb\u4e8b\u4ef6\uff0c\u70b9\u51fb Button \u7684\u65f6\u5019\uff0c\u6267\u884c\u987a\u5e8f\u662f\u4ec0\u4e48',
+              '\u4e8c\u9762\u770b\u4f60\u7b80\u5386\uff0c\u4f60\u8bf4\u7528 Hooks \u66ff\u6362 Function\uff0c\u7528 TS \u91cd\u6784 js\uff0c\u8bf7\u8be6\u7ec6\u804a\u4e00\u4e0b\u4f60\u662f\u600e\u4e48\u60f3\u7684 inline \u5143\u7d20\u4e2d\u54ea\u4e9b\u5c5e\u6027\u751f\u6548\uff1awidth\u3001height\u3001padding\u3001margin relative \u5143\u7d20\u662f\u600e\u4e48\u5b9a\u4f4d\u7684\u4e00\u4e2a\u975e\u5b9a\u9ad8\u3001\u975e\u5b9a\u5bbd\u7684\u5143\u7d20\u5982\u4f55\u5b9e\u73b0\u5728\u7a97\u53e3\u5782\u76f4\u5c45\u4e2d\u3001\u5de6\u53f3\u5c45\u4e2d content-length \u7684\u542b\u4e49 cookie \u548c localStorage \u7684\u533a\u522b addEventListener \u7684\u6267\u884c\u987a\u5e8f\u5982\u679c\u4f7f\u7528 useCapture = true, \u4e00\u4e2a div \u91cc\u9762\u5305\u542b\u4e00\u4e2a Button\uff0c2 \u4e2a\u5143\u7d20\u90fd\u7ed1\u5b9a\u70b9\u51fb\u4e8b\u4ef6\uff0c\u70b9\u51fb Button \u7684\u65f6\u5019\uff0c\u6267\u884c\u987a\u5e8f\u662f\u4ec0\u4e48',
             ),
             r.a.createElement(
               'p',
               null,
               '\u7f16\u7a0b\u9898 for (var i = 0; i < 6; i++) ',
               '{',
-              'setTimeout(() => ',
+              ' setTimeout(() => ',
               '{',
-              'console.log(i);',
+              ' console.log(i); ',
               '}',
-              ', 1000);',
+              ', 1000); ',
               '}',
             ),
             r.a.createElement(
               'p',
               null,
-              '// \u95ee\u98981\uff1a\u8f93\u51fa\u7ed3\u679c\u662f\u4ec0\u4e48\uff1f\u4e3a\u4ec0\u4e48 // \u95ee\u98982\uff1a\u8bf7\u6539\u9020\u6210\u6b63\u786e\u7684\u8f93\u51fa // \u95ee\u98983\uff1a\u8bf7\u6539\u9020\u6210 1->2->3->4->5 \u6bcf\u4e2a\u8f93\u51fa\u90fd\u7b49\u5f85 1s',
+              '// \u95ee\u9898 1\uff1a\u8f93\u51fa\u7ed3\u679c\u662f\u4ec0\u4e48\uff1f\u4e3a\u4ec0\u4e48 // \u95ee\u9898 2\uff1a\u8bf7\u6539\u9020\u6210\u6b63\u786e\u7684\u8f93\u51fa // \u95ee\u9898 3\uff1a\u8bf7\u6539\u9020\u6210 1->2->3->4->5 \u6bcf\u4e2a\u8f93\u51fa\u90fd\u7b49\u5f85 1s',
             ),
             r.a.createElement(
               'p',
               null,
-              '\u7f16\u7a0b\u9898 \u6807\u9898\u627e\u65cb\u8f6c\u6570\u7ec4\u7684\u4e2d\u4f4d\u6570\u9898\u76ee\u63cf\u8ff0\u6709\u4e00\u4e2a\u6709\u5e8f\u6570\u7ec4\u5982\uff1a1\uff0c2\uff0c3\uff0c4\uff0c5\uff0c6\uff0c7\uff0c \u968f\u673a\u9009\u4e00\u4e2a\u70b9\u6bd4\u5982 5\uff0c\u53cd\u8f6c\u53d8\u6210\uff1a5\uff0c6\uff0c7\uff0c1\uff0c2\uff0c3\uff0c4 \u5bf9\u4e8e\u4e0a\u9762\u7ffb\u8f6c\u540e\u7684\u6570\u7ec4\uff0c\u6c42\u5b83\u7684\u4e2d\u4f4d\u6570\u3002',
+              '\u7f16\u7a0b\u9898\u6807\u9898\u627e\u65cb\u8f6c\u6570\u7ec4\u7684\u4e2d\u4f4d\u6570\u9898\u76ee\u63cf\u8ff0\u6709\u4e00\u4e2a\u6709\u5e8f\u6570\u7ec4\u5982\uff1a1\uff0c2\uff0c3\uff0c4\uff0c5\uff0c6\uff0c7\uff0c\u968f\u673a\u9009\u4e00\u4e2a\u70b9\u6bd4\u5982 5\uff0c\u53cd\u8f6c\u53d8\u6210\uff1a5\uff0c6\uff0c7\uff0c1\uff0c2\uff0c3\uff0c4 \u5bf9\u4e8e\u4e0a\u9762\u7ffb\u8f6c\u540e\u7684\u6570\u7ec4\uff0c\u6c42\u5b83\u7684\u4e2d\u4f4d\u6570\u3002',
             ),
             r.a.createElement('p', null, '\u4e09\u9762'),
             r.a.createElement(
               'p',
               null,
-              '\u4ecb\u7ecd\u9879\u76ee\u4e2d\u7684\u524d\u7aef\u90e8\u5206 \u770b\u8f93\u51fa',
+              '\u4ecb\u7ecd\u9879\u76ee\u4e2d\u7684\u524d\u7aef\u90e8\u5206\u770b\u8f93\u51fa',
             ),
             r.a.createElement(
               'p',
               null,
               'var length = 10; function fn() ',
               '{',
-              'return this.length + 1;',
+              ' return this.length + 1; ',
               '}',
-              'var obj = ',
+              ' var obj = ',
               '{',
-              'length: 5, test1: function() ',
+              ' length: 5, test1: function() ',
               '{',
-              'return fn();',
+              ' return fn(); ',
               '}',
+              ' ',
               '}',
               '; obj.test2 = fn;',
             ),
@@ -52880,29 +52881,29 @@
             r.a.createElement(
               'p',
               null,
-              '\u56de\u6eaf + \u526a\u679d \u5b9e\u73b0 ',
+              '\u56de\u6eaf + \u526a\u679d\u5b9e\u73b0 ',
               r.a.createElement('code', null, "fn([['a','b'],['m','n'],['0','1']])"),
-              " \u6392\u5217 \u8f93\u51fa\uff1a['am0', 'am1', 'an0', 'an1', ....] \u8f93\u51fa\u7ed3\u679c\u4e0d\u662f\u5168\u6392\u5217\uff0c\u5b57\u7b26\u4e32\u91cd\u590d\u7684\u53ea\u4fdd\u7559\u4e00\u4e2a\uff0c\u4f8b\u5982 'am0' 'ma0' \u5c5e\u4e8e\u91cd\u590d",
+              " \u6392\u5217\u8f93\u51fa\uff1a['am0', 'am1', 'an0', 'an1', ....] \u8f93\u51fa\u7ed3\u679c\u4e0d\u662f\u5168\u6392\u5217\uff0c\u5b57\u7b26\u4e32\u91cd\u590d\u7684\u53ea\u4fdd\u7559\u4e00\u4e2a\uff0c\u4f8b\u5982 'am0' 'ma0' \u5c5e\u4e8e\u91cd\u590d",
             ),
             r.a.createElement(
               'p',
               null,
-              '\u7f16\u7a0b\u9898\uff1a42. \u63a5\u96e8\u6c34(opens new window) \u4ece URL \u8f93\u5165\u5230\u9875\u9762\u6e32\u67d3\u5168\u8fc7\u7a0b TCP \u548c UDP \u7684\u533a\u522b \u751f\u6210 DOM \u6811 + CSS \u6811\u4e4b\u540e\u7684\u8fc7\u7a0b\uff0c\u8d8a\u8be6\u7ec6\u8d8a\u597d \u5982\u4f55\u51cf\u5c11\u56de\u6d41\u3001\u91cd\u7ed8\uff0c\u5145\u5206\u5229\u7528 GPU \u52a0\u901f\u6e32\u67d3\uff1f \u8bbe\u8ba1\u4e00\u4e2a\u524d\u7aef\u67b6\u6784\u4f1a\u8003\u8651\u4ec0\u4e48\uff1f\u6362\u4e2a\u89d2\u5ea6\u95ee\uff1a\u8003\u8651\u4ea7\u54c1\u7684\u53ef\u8fed\u4ee3\u6027\u4f1a\u8003\u8651\u54ea\u4e9b\u56e0\u7d20\uff1f \u81ea\u5df1\u7684\u804c\u4e1a\u53d1\u5c55',
+              '\u7f16\u7a0b\u9898\uff1a42. \u63a5\u96e8\u6c34(opens new window) \u4ece URL \u8f93\u5165\u5230\u9875\u9762\u6e32\u67d3\u5168\u8fc7\u7a0b TCP \u548c UDP \u7684\u533a\u522b\u751f\u6210 DOM \u6811 + CSS \u6811\u4e4b\u540e\u7684\u8fc7\u7a0b\uff0c\u8d8a\u8be6\u7ec6\u8d8a\u597d\u5982\u4f55\u51cf\u5c11\u56de\u6d41\u3001\u91cd\u7ed8\uff0c\u5145\u5206\u5229\u7528 GPU \u52a0\u901f\u6e32\u67d3\uff1f\u8bbe\u8ba1\u4e00\u4e2a\u524d\u7aef\u67b6\u6784\u4f1a\u8003\u8651\u4ec0\u4e48\uff1f\u6362\u4e2a\u89d2\u5ea6\u95ee\uff1a\u8003\u8651\u4ea7\u54c1\u7684\u53ef\u8fed\u4ee3\u6027\u4f1a\u8003\u8651\u54ea\u4e9b\u56e0\u7d20\uff1f\u81ea\u5df1\u7684\u804c\u4e1a\u53d1\u5c55',
             ),
             r.a.createElement(
               'p',
               null,
-              '\u4ecb\u7ecd\u4e0b\u4ea7\u54c1\u7684\u80cc\u666f\u3001\u529f\u80fd\u3001\u67b6\u6784 \u4ecb\u7ecd ClickHouse \u5982\u4f55\u505a\u7684\u5206\u8868 \u4f60\u4eec\u4e3a\u4ec0\u4e48\u7528 C \u5199\u5e95\u5c42 \u4f60\u89c9\u5f97\u4f60\u505a\u7684\u6700\u597d\u7684\u9879\u76ee\u662f\u54ea\u4e00\u4e2a \u4f60\u89c9\u5f97\u4f60\u6700\u597d\u7684\u6280\u672f\u662f\u4ec0\u4e48 \u53cd\u95ee\u73af\u8282',
+              '\u4ecb\u7ecd\u4e0b\u4ea7\u54c1\u7684\u80cc\u666f\u3001\u529f\u80fd\u3001\u67b6\u6784\u4ecb\u7ecd ClickHouse \u5982\u4f55\u505a\u7684\u5206\u8868\u4f60\u4eec\u4e3a\u4ec0\u4e48\u7528 C \u5199\u5e95\u5c42\u4f60\u89c9\u5f97\u4f60\u505a\u7684\u6700\u597d\u7684\u9879\u76ee\u662f\u54ea\u4e00\u4e2a\u4f60\u89c9\u5f97\u4f60\u6700\u597d\u7684\u6280\u672f\u662f\u4ec0\u4e48\u53cd\u95ee\u73af\u8282',
             ),
             r.a.createElement(
               'p',
               null,
-              'HR \u9762 \u81ea\u6211\u4ecb\u7ecd \u4e4b\u524d\u6d4e\u5357\u7684\u5de5\u4f5c\u662f\u6821\u62db\u52a0\u5165\u7684\u5417 \u4e4b\u524d\u5728\u6d4e\u5357\u4e3a\u4ec0\u4e48\u6765\u5317\u4eac\uff0c\u79bb\u5f00\u7684\u539f\u56e0\u662f\u4ec0\u4e48 \u8ffd\u95ee\u4e86\u4e4b\u524d\u6d4e\u5357\u56e2\u961f\u7684\u4e00\u4e9b\u4e8b\u60c5 \u6765\u5317\u4eac\u8fd9\u5bb6\u521b\u4e1a\u516c\u53f8\u662f\u5426\u6709\u8fc7\u516c\u53f8\u72b6\u51b5\u4e0d\u597d\u3001\u53d1\u5c55\u4e0d\u4e0b\u53bb\u7684\u62c5\u5fe7 \u73b0\u5728\u5927\u73af\u5883\u4e0d\u597d\uff0c\u4e3a\u4ec0\u4e48\u9009\u62e9\u8fd9\u4e2a\u65f6\u95f4\u70b9\u770b\u673a\u4f1a \u4ecb\u7ecd\u4e0b\u56e2\u961f\u7684\u60c5\u51b5 \u4ecb\u7ecd\u4e0b\u4f60\u73b0\u5728\u7684\u5de5\u4f5c\u5185\u5bb9 \u4ecb\u7ecd\u4e0b\u4f60\u5de5\u4f5c\u4e2d\u505a\u7684\u6bd4\u8f83\u597d\u7684\u90e8\u5206\u548c\u6700\u540e\u8fbe\u5230\u7684\u6548\u679c \u4e3a\u4ec0\u4e48\u9009\u62e9\u5b57\u8282\u8df3\u52a8 \u5bf9\u98de\u4e66\u8fd9\u4e2a\u4ea7\u54c1\u719f\u6089\u5417 \u9664\u4e86\u5b57\u8282\u4e4b\u5916\uff0c\u73b0\u5728\u8fd8\u6709\u54ea\u4e9b\u673a\u4f1a \u4e3a\u4ec0\u4e48\u53ea\u9009\u62e9\u767e\u5ea6\u548c\u5b57\u8282 \u672a\u6765\u7684\u89c4\u5212\u662f\u4ec0\u4e48\u6837\u7684 \u5bf9\u65b0\u7684\u5de5\u4f5c\u6709\u4ec0\u4e48\u671f\u671b \u53cd\u95ee\uff1a\u540e\u7eed\u6d41\u7a0b\u662f\u4ec0\u4e48\u6837\u7684 \u7ed3\u675f\u4e4b\u524d\u8ffd\u95ee\u4e86\u6700\u540e\u4e00\u4e2a\u95ee\u9898\uff1a\u6700\u8fd1\u4e00\u6bb5\u65f6\u95f4\u4f60\u60f3\u6df1\u5165\u4e0b\u4ec0\u4e48\u6280\u672f',
+              'HR \u9762\u81ea\u6211\u4ecb\u7ecd\u4e4b\u524d\u6d4e\u5357\u7684\u5de5\u4f5c\u662f\u6821\u62db\u52a0\u5165\u7684\u5417\u4e4b\u524d\u5728\u6d4e\u5357\u4e3a\u4ec0\u4e48\u6765\u5317\u4eac\uff0c\u79bb\u5f00\u7684\u539f\u56e0\u662f\u4ec0\u4e48\u8ffd\u95ee\u4e86\u4e4b\u524d\u6d4e\u5357\u56e2\u961f\u7684\u4e00\u4e9b\u4e8b\u60c5\u6765\u5317\u4eac\u8fd9\u5bb6\u521b\u4e1a\u516c\u53f8\u662f\u5426\u6709\u8fc7\u516c\u53f8\u72b6\u51b5\u4e0d\u597d\u3001\u53d1\u5c55\u4e0d\u4e0b\u53bb\u7684\u62c5\u5fe7\u73b0\u5728\u5927\u73af\u5883\u4e0d\u597d\uff0c\u4e3a\u4ec0\u4e48\u9009\u62e9\u8fd9\u4e2a\u65f6\u95f4\u70b9\u770b\u673a\u4f1a\u4ecb\u7ecd\u4e0b\u56e2\u961f\u7684\u60c5\u51b5\u4ecb\u7ecd\u4e0b\u4f60\u73b0\u5728\u7684\u5de5\u4f5c\u5185\u5bb9\u4ecb\u7ecd\u4e0b\u4f60\u5de5\u4f5c\u4e2d\u505a\u7684\u6bd4\u8f83\u597d\u7684\u90e8\u5206\u548c\u6700\u540e\u8fbe\u5230\u7684\u6548\u679c\u4e3a\u4ec0\u4e48\u9009\u62e9\u5b57\u8282\u8df3\u52a8\u5bf9\u98de\u4e66\u8fd9\u4e2a\u4ea7\u54c1\u719f\u6089\u5417\u9664\u4e86\u5b57\u8282\u4e4b\u5916\uff0c\u73b0\u5728\u8fd8\u6709\u54ea\u4e9b\u673a\u4f1a\u4e3a\u4ec0\u4e48\u53ea\u9009\u62e9\u767e\u5ea6\u548c\u5b57\u8282\u672a\u6765\u7684\u89c4\u5212\u662f\u4ec0\u4e48\u6837\u7684\u5bf9\u65b0\u7684\u5de5\u4f5c\u6709\u4ec0\u4e48\u671f\u671b\u53cd\u95ee\uff1a\u540e\u7eed\u6d41\u7a0b\u662f\u4ec0\u4e48\u6837\u7684\u7ed3\u675f\u4e4b\u524d\u8ffd\u95ee\u4e86\u6700\u540e\u4e00\u4e2a\u95ee\u9898\uff1a\u6700\u8fd1\u4e00\u6bb5\u65f6\u95f4\u4f60\u60f3\u6df1\u5165\u4e0b\u4ec0\u4e48\u6280\u672f',
             ),
             r.a.createElement(
               'p',
               null,
-              '\u4e00\u9762 \u5c97\u4f4d\uff1aACG \u667a\u6167\u5de5\u4e1a\u4e8b\u4e1a\u90e8',
+              '\u4e00\u9762\u5c97\u4f4d\uff1aACG \u667a\u6167\u5de5\u4e1a\u4e8b\u4e1a\u90e8',
             ),
             r.a.createElement(
               'p',
@@ -52912,7 +52913,7 @@
             r.a.createElement(
               'p',
               null,
-              '\u81ea\u6211\u4ecb\u7ecd \u804a\u4e0b React Hooks \u539f\u7406 \u804a\u4e0b\u8de8\u57df\uff0c\u5982\u4f55\u53d1\u9001 cookie \u804a\u4e0b webpack \u4f18\u5316 React \u6e90\u7801 React 16.8 \u4e4b\u524d\u4e4b\u540e\u7684\u5bf9\u6bd4 \u7b97\u6cd5\u9898\uff1aLeetCode-56. \u5408\u5e76\u533a\u95f4(opens new window) \u53cd\u95ee\u73af\u8282 \u90e8\u95e8\u4e1a\u52a1\uff1a\u5927\u6570\u636e\u3001\u53ef\u89c6\u5316\u3001\u81ea\u68c0\u3001\u5de1\u68c0 \u6839\u636e\u9762\u8bd5\u8fc7\u7a0b\uff0c\u9ebb\u70e6\u7ed9\u51fa\u5efa\u8bae',
+              '\u81ea\u6211\u4ecb\u7ecd\u804a\u4e0b React Hooks \u539f\u7406\u804a\u4e0b\u8de8\u57df\uff0c\u5982\u4f55\u53d1\u9001 cookie \u804a\u4e0b webpack \u4f18\u5316 React \u6e90\u7801 React 16.8 \u4e4b\u524d\u4e4b\u540e\u7684\u5bf9\u6bd4\u7b97\u6cd5\u9898\uff1aLeetCode-56. \u5408\u5e76\u533a\u95f4(opens new window) \u53cd\u95ee\u73af\u8282\u90e8\u95e8\u4e1a\u52a1\uff1a\u5927\u6570\u636e\u3001\u53ef\u89c6\u5316\u3001\u81ea\u68c0\u3001\u5de1\u68c0\u6839\u636e\u9762\u8bd5\u8fc7\u7a0b\uff0c\u9ebb\u70e6\u7ed9\u51fa\u5efa\u8bae',
             ),
             r.a.createElement(
               'h1',
@@ -54965,7 +54966,7 @@
               r.a.createElement('code', null, 'View'),
               ' \u548c ',
               r.a.createElement('code', null, 'Model'),
-              '  ',
+              ' ',
               r.a.createElement('code', null, '\u7684\u89e3\u8026\uff0cPresenter'),
               ' \u8fd8\u5305\u542b\u4e86\u5176\u4ed6\u7684\u54cd\u5e94\u903b\u8f91\u3002',
             ),
@@ -55870,7 +55871,7 @@
             ),
             r.a.createElement('ol', null, r.a.createElement('li', null, '\u6e90\u7801\uff1a')),
             r.a.createElement(i['a'], {
-              code: "const patternTypes: Array < Function > = [String, RegExp, Array]; // \u63a5\u6536\uff1a\u5b57\u7b26\u4e32\uff0c\u6b63\u5219\uff0c\u6570\u7ec4\n\nexport default {\n  name: 'keep-alive',\n\n  // \u62bd\u8c61\u7ec4\u4ef6\uff0c\u662f\u4e00\u4e2a\u62bd\u8c61\u7ec4\u4ef6\uff1a\u5b83\u81ea\u8eab\u4e0d\u4f1a\u6e32\u67d3\u4e00\u4e2a DOM \u5143\u7d20\uff0c\u4e5f\u4e0d\u4f1a\u51fa\u73b0\u5728\u7236\u7ec4\u4ef6\u94fe\u4e2d\u3002\n  abstract: true,\n\n  props: {\n    include: patternTypes, // \u5339\u914d\u7684\u7ec4\u4ef6\uff0c\u7f13\u5b58\n    exclude: patternTypes, // \u4e0d\u53bb\u5339\u914d\u7684\u7ec4\u4ef6\uff0c\u4e0d\u7f13\u5b58\n    max: [String, Number], // \u7f13\u5b58\u7ec4\u4ef6\u7684\u6700\u5927\u5b9e\u4f8b\u6570\u91cf, \u7531\u4e8e\u7f13\u5b58\u7684\u662f\u7ec4\u4ef6\u5b9e\u4f8b\uff08vnode\uff09\uff0c\u6570\u91cf\u8fc7\u591a\u7684\u65f6\u5019\uff0c\u4f1a\u5360\u7528\u8fc7\u591a\u7684\u5185\u5b58\uff0c\u53ef\u4ee5\u7528max\u6307\u5b9a\u4e0a\u9650\n  },\n\n  created() {\n    // \u7528\u4e8e\u521d\u59cb\u5316\u7f13\u5b58\u865a\u62dfDOM\u6570\u7ec4\u548cvnode\u7684key\n    this.cache = Object.create(null);\n    this.keys = [];\n  },\n\n  destroyed() {\n    // \u9500\u6bc1\u7f13\u5b58cache\u7684\u7ec4\u4ef6\u5b9e\u4f8b\n    for (const key in this.cache) {\n      pruneCacheEntry(this.cache, key, this.keys);\n    }\n  },\n\n  mounted() {\n    // prune \u524a\u51cf\u7cbe\u7b80[v.]\n    // \u53bb\u76d1\u63a7include\u548cexclude\u7684\u6539\u53d8\uff0c\u6839\u636e\u6700\u65b0\u7684include\u548cexclude\u7684\u5185\u5bb9\uff0c\u6765\u5b9e\u65f6\u524a\u51cf\u7f13\u5b58\u7684\u7ec4\u4ef6\u7684\u5185\u5bb9\n    this.$watch('include', (val) => {\n      pruneCache(this, (name) => matches(val, name));\n    });\n    this.$watch('exclude', (val) => {\n      pruneCache(this, (name) => !matches(val, name));\n    });\n  },\n};",
+              code: "const patternTypes: Array<Function> = [String, RegExp, Array]; // \u63a5\u6536\uff1a\u5b57\u7b26\u4e32\uff0c\u6b63\u5219\uff0c\u6570\u7ec4\n\nexport default {\n  name: 'keep-alive',\n\n  // \u62bd\u8c61\u7ec4\u4ef6\uff0c\u662f\u4e00\u4e2a\u62bd\u8c61\u7ec4\u4ef6\uff1a\u5b83\u81ea\u8eab\u4e0d\u4f1a\u6e32\u67d3\u4e00\u4e2a DOM \u5143\u7d20\uff0c\u4e5f\u4e0d\u4f1a\u51fa\u73b0\u5728\u7236\u7ec4\u4ef6\u94fe\u4e2d\u3002\n  abstract: true,\n\n  props: {\n    include: patternTypes, // \u5339\u914d\u7684\u7ec4\u4ef6\uff0c\u7f13\u5b58\n    exclude: patternTypes, // \u4e0d\u53bb\u5339\u914d\u7684\u7ec4\u4ef6\uff0c\u4e0d\u7f13\u5b58\n    max: [String, Number], // \u7f13\u5b58\u7ec4\u4ef6\u7684\u6700\u5927\u5b9e\u4f8b\u6570\u91cf, \u7531\u4e8e\u7f13\u5b58\u7684\u662f\u7ec4\u4ef6\u5b9e\u4f8b\uff08vnode\uff09\uff0c\u6570\u91cf\u8fc7\u591a\u7684\u65f6\u5019\uff0c\u4f1a\u5360\u7528\u8fc7\u591a\u7684\u5185\u5b58\uff0c\u53ef\u4ee5\u7528max\u6307\u5b9a\u4e0a\u9650\n  },\n\n  created() {\n    // \u7528\u4e8e\u521d\u59cb\u5316\u7f13\u5b58\u865a\u62dfDOM\u6570\u7ec4\u548cvnode\u7684key\n    this.cache = Object.create(null);\n    this.keys = [];\n  },\n\n  destroyed() {\n    // \u9500\u6bc1\u7f13\u5b58cache\u7684\u7ec4\u4ef6\u5b9e\u4f8b\n    for (const key in this.cache) {\n      pruneCacheEntry(this.cache, key, this.keys);\n    }\n  },\n\n  mounted() {\n    // prune \u524a\u51cf\u7cbe\u7b80[v.]\n    // \u53bb\u76d1\u63a7include\u548cexclude\u7684\u6539\u53d8\uff0c\u6839\u636e\u6700\u65b0\u7684include\u548cexclude\u7684\u5185\u5bb9\uff0c\u6765\u5b9e\u65f6\u524a\u51cf\u7f13\u5b58\u7684\u7ec4\u4ef6\u7684\u5185\u5bb9\n    this.$watch('include', (val) => {\n      pruneCache(this, (name) => matches(val, name));\n    });\n    this.$watch('exclude', (val) => {\n      pruneCache(this, (name) => !matches(val, name));\n    });\n  },\n};",
               lang: 'javascript',
             }),
             r.a.createElement(
@@ -58441,7 +58442,7 @@
   },
   q3YX: function (e) {
     e.exports = JSON.parse(
-      '{"menus":{"en-US":{"*":[{"path":"/","title":"Hey Bro!","meta":{}}],"/interview":[{"path":"/interview","title":"TODO","meta":{}}],"/\u5de5\u7a0b\u5316":[{"path":"/\u5de5\u7a0b\u5316","title":"\u524d\u7aef\u5de5\u7a0b\u5316","meta":{}},{"title":"Babel","path":"/\u5de5\u7a0b\u5316/babel","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/babel/todo","title":"Babel","meta":{}},{"path":"/\u5de5\u7a0b\u5316/babel/\u539f\u7406","title":"Babel","meta":{}}]},{"title":"CICD","path":"/\u5de5\u7a0b\u5316/cicd","meta":{},"children":[]},{"title":"Git","path":"/\u5de5\u7a0b\u5316/git","meta":{},"children":[]},{"title":"NPM","path":"/\u5de5\u7a0b\u5316/npm","meta":{},"children":[]},{"title":"Vite","path":"/\u5de5\u7a0b\u5316/vite","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/vite/todo","title":"TODO","meta":{"order":0}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u6e90\u7801","title":"Vite\u6e90\u7801","meta":{"order":1}},{"path":"/\u5de5\u7a0b\u5316/vite/vite \u7ea6\u5b9a\u5f0f\u8def\u7531","title":"Vite \u7ea6\u5b9a\u5f0f\u8def\u7531","meta":{"order":2}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u63d2\u4ef6","title":"Vite\u63d2\u4ef6","meta":{"order":3}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u591a\u9875\u9762","title":"Vite\u591a\u9875\u9762","meta":{"order":4}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c","title":"Vite\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c","meta":{}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u5f15\u7528md\u6587\u4ef6","title":"Vite\u5f15\u7528md\u6587\u4ef6","meta":{}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u8def\u7531\u81ea\u52a8\u6ce8\u518c","title":"Vite\u8def\u7531\u81ea\u52a8\u6ce8\u518c","meta":{}}]},{"title":"Webpack","path":"/\u5de5\u7a0b\u5316/webpack","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/webpack/todo","title":"TODO","meta":{"order":0}},{"path":"/\u5de5\u7a0b\u5316/webpack/\u6253\u5305\u539f\u7406","title":"Webpack \u6253\u5305\u539f\u7406","meta":{"order":1}},{"path":"/\u5de5\u7a0b\u5316/webpack/loader","title":"Loader","meta":{"order":2}},{"path":"/\u5de5\u7a0b\u5316/webpack/loader\u4e0eplugin\u533a\u522b","title":"loader \u4e0e plugin \u533a\u522b","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/plugin","title":"Plugin","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/source map","title":"source map","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/umd\u3001cjs\u3001amd\u3001cmd\u3001esm","title":"Javascript \u4e2d\u7684 CJS, AMD, UMD \u548c ESM","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/webpack\u6784\u5efa\u6027\u80fd","title":"webpack \u6784\u5efa\u6027\u80fd","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/\u6587\u4ef6\u76d1\u542c\u539f\u7406","title":"\u6587\u4ef6\u76d1\u542c\u539f\u7406","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/\u70ed\u66f4\u65b0hmr\u539f\u7406","title":"\u70ed\u66f4\u65b0 HMR \u539f\u7406","meta":{}}]},{"title":"Web\u5b89\u5168","path":"/\u5de5\u7a0b\u5316/web\u5b89\u5168","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/web\u5b89\u5168/todo","title":"Web \u5b89\u5168","meta":{}}]},{"title":"Web\u8bf7\u6c42","path":"/\u5de5\u7a0b\u5316/web\u8bf7\u6c42","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/web\u8bf7\u6c42/todo","title":"Web \u8bf7\u6c42","meta":{}}]},{"title":"\u5355\u5143\u6d4b\u8bd5","path":"/\u5de5\u7a0b\u5316/\u5355\u5143\u6d4b\u8bd5","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/\u5355\u5143\u6d4b\u8bd5/jest","title":"Jest","meta":{}}]},{"title":"\u5fae\u524d\u7aef","path":"/\u5de5\u7a0b\u5316/\u5fae\u524d\u7aef","meta":{},"children":[]},{"title":"\u6027\u80fd\u4f18\u5316","path":"/\u5de5\u7a0b\u5316/\u6027\u80fd\u4f18\u5316","meta":{},"children":[]},{"title":"\u76d1\u63a7\u57cb\u70b9","path":"/\u5de5\u7a0b\u5316/\u76d1\u63a7\u57cb\u70b9","meta":{},"children":[]},{"title":"\u7ec4\u4ef6\u5e93","path":"/\u5de5\u7a0b\u5316/\u7ec4\u4ef6\u5e93","meta":{},"children":[]},{"title":"\u811a\u624b\u67b6","path":"/\u5de5\u7a0b\u5316/\u811a\u624b\u67b6","meta":{},"children":[]},{"title":"\u8de8\u7aef","path":"/\u5de5\u7a0b\u5316/\u8de8\u7aef","meta":{},"children":[]}],"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5":[{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5","title":"\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5","meta":{}},{"title":"Algorithm","path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm","meta":{},"children":[{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm","title":"\u7b97\u6cd5","meta":{"order":1}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm/\u6808\u4e0e\u961f\u5217","title":"\u6808\u4e0e\u961f\u5217","meta":{"order":5}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm/\u94fe\u8868","title":"\u94fe\u8868","meta":{"order":6}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm/\u6811-todo","title":"\u6811-TODO","meta":{"order":10}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm/\u6392\u5e8f\u548c\u641c\u7d22\u7b97\u6cd5","title":"\u6392\u5e8f\u548c\u641c\u7d22\u7b97\u6cd5","meta":{"order":13}}]},{"title":"Leetcode","path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode","meta":{},"children":[{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/1. \u4e24\u6570\u4e4b\u548c","title":"1. \u4e24\u6570\u4e4b\u548c","meta":{"order":1}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/9.\u56de\u6587\u6570","title":"9.\u56de\u6587\u6570","meta":{"order":9}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/13. \u7f57\u9a6c\u6570\u5b57\u8f6c\u6574\u6570","title":"13.\u7f57\u9a6c\u6570\u5b57\u8f6c\u6574\u6570","meta":{"order":13}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/14. \u6700\u957f\u516c\u5171\u524d\u7f00","title":"14. \u6700\u957f\u516c\u5171\u524d\u7f00","meta":{"order":14}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/20. \u6709\u6548\u7684\u62ec\u53f7","title":"20. \u6709\u6548\u7684\u62ec\u53f7","meta":{"order":20}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/21. \u5408\u5e76\u4e24\u4e2a\u6709\u5e8f\u94fe\u8868","title":"21. \u5408\u5e76\u4e24\u4e2a\u6709\u5e8f\u94fe\u8868","meta":{"order":21}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/27. \u79fb\u9664\u5143\u7d20","title":"27. \u79fb\u9664\u5143\u7d20","meta":{"order":27}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/28. \u5b9e\u73b0 str-str()","title":"28. \u5b9e\u73b0 strStr()","meta":{"order":28}}]}],"/\u6846\u67b6":[{"path":"/\u6846\u67b6","title":"\u6846\u67b6","meta":{}},{"title":"React","path":"/\u6846\u67b6/react","meta":{},"children":[]},{"title":"Vue","path":"/\u6846\u67b6/vue","meta":{},"children":[{"path":"/\u6846\u67b6/vue/todo","title":"TODO","meta":{"order":1}},{"path":"/\u6846\u67b6/vue/\u54cd\u5e94\u5f0f\u539f\u7406","title":"\u54cd\u5e94\u5f0f\u539f\u7406","meta":{"order":2}},{"path":"/\u6846\u67b6/vue/\u865a\u62dfdom","title":"\u865a\u62dfdom","meta":{"order":3}},{"path":"/\u6846\u67b6/vue/vue3-watch-watch-effect","title":"watch\u4e0ewatchEffect\u7684\u533a\u522b","meta":{"order":4}},{"path":"/\u6846\u67b6/vue/keep-alive","title":"KeepAlive","meta":{}},{"path":"/\u6846\u67b6/vue/uni-app \u5f00\u53d1\u6280\u5de7","title":"uni-app \u5f00\u53d1\u5c0f\u6280\u5de7","meta":{}},{"path":"/\u6846\u67b6/vue/vue-router","title":"VueRouter","meta":{}},{"path":"/\u6846\u67b6/vue/vue3-proxy","title":"Vue3-proxy","meta":{}},{"path":"/\u6846\u67b6/vue/vue3-ref\u3001to-ref\u3001to-refs\u3001reactive","title":"ref\u3001toRef\u3001toRefs\u3001reactive","meta":{}},{"path":"/\u6846\u67b6/vue/\u72b6\u6001\u7ba1\u7406pinia","title":"\u72b6\u6001\u7ba1\u7406pinia","meta":{}},{"path":"/\u6846\u67b6/vue/\u72b6\u6001\u7ba1\u7406vuex","title":"Vuex \u5b9e\u73b0\u539f\u7406\uff1a","meta":{}}]},{"title":"\u6e90\u7801\u9605\u8bfb","path":"/\u6846\u67b6/\u6e90\u7801\u9605\u8bfb","meta":{},"children":[]}],"/\u6df1\u5165\u6d45\u51fa":[{"path":"/\u6df1\u5165\u6d45\u51fa","title":"\u6df1\u5165\u6d45\u51fa","meta":{}},{"title":"HTML + Css","path":"/\u6df1\u5165\u6d45\u51fa/html + css","meta":{},"children":[]},{"title":"JavaScript","path":"/\u6df1\u5165\u6d45\u51fa/java-script","meta":{},"children":[{"path":"/\u6df1\u5165\u6d45\u51fa/java-script/base","title":"JavaScript\u57fa\u7840","meta":{"order":1}},{"path":"/\u6df1\u5165\u6d45\u51fa/java-script/es6","title":"es6","meta":{}},{"path":"/\u6df1\u5165\u6d45\u51fa/java-script/extends","title":"\u7ee7\u627fextends","meta":{}},{"path":"/\u6df1\u5165\u6d45\u51fa/java-script/prototype","title":"\u539f\u578bprototype","meta":{}}]},{"title":"Typescript","path":"/\u6df1\u5165\u6d45\u51fa/typescript","meta":{},"children":[{"path":"/\u6df1\u5165\u6d45\u51fa/typescript/todo","title":"Typescript","meta":{}},{"path":"/\u6df1\u5165\u6d45\u51fa/typescript/\u5ffd\u7565\u7c7b\u578b\u68c0\u67e5","title":"TypeScript \u5ffd\u7565\u7c7b\u578b\u68c0\u67e5","meta":{}}]},{"title":"\u8bbe\u8ba1\u6a21\u5f0f","path":"/\u6df1\u5165\u6d45\u51fa/\u8bbe\u8ba1\u6a21\u5f0f","meta":{},"children":[{"path":"/\u6df1\u5165\u6d45\u51fa/\u8bbe\u8ba1\u6a21\u5f0f","title":"\u8bbe\u8ba1\u6a21\u5f0f","meta":{}},{"path":"/\u6df1\u5165\u6d45\u51fa/\u8bbe\u8ba1\u6a21\u5f0f/\u5355\u4f8b\u6a21\u5f0f","title":"\u5355\u4f8b\u6a21\u5f0f","meta":{}},{"path":"/\u6df1\u5165\u6d45\u51fa/\u8bbe\u8ba1\u6a21\u5f0f/\u7b80\u5355\u5de5\u5382\u6a21\u5f0f","title":"\u7b80\u5355\u5de5\u5382\u6a21\u5f0f","meta":{}}]}],"/\u8ba1\u7b97\u673a\u57fa\u7840":[{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/todo","title":"\u8ba1\u7b97\u673a\u57fa\u7840","meta":{"order":0}},{"title":"Nodejs","path":"/\u8ba1\u7b97\u673a\u57fa\u7840/nodejs","meta":{},"children":[]},{"title":"\u64cd\u4f5c\u7cfb\u7edf","path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u64cd\u4f5c\u7cfb\u7edf","meta":{},"children":[{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u64cd\u4f5c\u7cfb\u7edf/todo","title":"TODO","meta":{}}]},{"title":"\u6d4f\u89c8\u5668","path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u6d4f\u89c8\u5668","meta":{},"children":[{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u6d4f\u89c8\u5668/\u6d4f\u89c8\u5668\u8f93\u5165url\u540e\u6d41\u7a0b","title":"\u6d4f\u89c8\u5668\u8f93\u5165 url \u540e\u6d41\u7a0b","meta":{"order":100}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u6d4f\u89c8\u5668/todo","title":"\u6d4f\u89c8\u5668\u7f13\u5b58\u7b56\u7565","meta":{}}]},{"title":"\u7f51\u7edc","path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc","meta":{},"children":[{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/todo","title":"TODO","meta":{"order":0}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/http\u72b6\u6001\u7801","title":"HTTP\u72b6\u6001\u7801","meta":{"order":1}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/gzip\u539f\u7406","title":"gzip \u539f\u7406","meta":{}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/http-https","title":"HTTP \u4e0e HTTPS \u7684\u533a\u522b","meta":{}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/http1-http2","title":"HTTP \u4e0e HTTP2\u7684\u533a\u522b","meta":{}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/http\u7f13\u5b58","title":"HTTP \u7f13\u5b58","meta":{}}]},{"title":"\u8ba1\u7b97\u673a\u7f51\u7edc","path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u8ba1\u7b97\u673a\u7f51\u7edc","meta":{},"children":[]}]}},"locales":[{"name":"en-US","label":"English"}],"navs":{"en-US":[{"title":"JS \u57fa\u7840","order":1,"path":"/\u6df1\u5165\u6d45\u51fa"},{"title":"\u6846\u67b6","order":2,"path":"/\u6846\u67b6"},{"order":3,"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5","title":"\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5"},{"title":"\u5de5\u7a0b\u5316","order":5,"sidemenu":false,"path":"/\u5de5\u7a0b\u5316"},{"order":5,"title":"\u8ba1\u7b97\u673a\u57fa\u7840","path":"/\u8ba1\u7b97\u673a\u57fa\u7840"},{"path":"/interview","title":"Interview"},{"title":"GitHub","path":"https://github.com/Lokep/aligado.git"}]},"title":"Lokep","logo":"https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png","mode":"site","repository":{"url":"","branch":"master"},"theme":{}}',
+      '{"menus":{"en-US":{"*":[{"path":"/","title":"Hey Bro!","meta":{}}],"/interview":[{"path":"/interview","title":"TODO","meta":{}}],"/\u5de5\u7a0b\u5316":[{"path":"/\u5de5\u7a0b\u5316","title":"\u524d\u7aef\u5de5\u7a0b\u5316","meta":{}},{"title":"Babel","path":"/\u5de5\u7a0b\u5316/babel","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/babel/todo","title":"Babel","meta":{}},{"path":"/\u5de5\u7a0b\u5316/babel/\u539f\u7406","title":"Babel","meta":{}}]},{"title":"CICD","path":"/\u5de5\u7a0b\u5316/cicd","meta":{},"children":[]},{"title":"Git","path":"/\u5de5\u7a0b\u5316/git","meta":{},"children":[]},{"title":"NPM","path":"/\u5de5\u7a0b\u5316/npm","meta":{},"children":[]},{"title":"Vite","path":"/\u5de5\u7a0b\u5316/vite","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/vite/todo","title":"TODO","meta":{"order":0}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u6e90\u7801","title":"Vite\u6e90\u7801","meta":{"order":1}},{"path":"/\u5de5\u7a0b\u5316/vite/vite \u7ea6\u5b9a\u5f0f\u8def\u7531","title":"Vite \u7ea6\u5b9a\u5f0f\u8def\u7531","meta":{"order":2}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u63d2\u4ef6","title":"Vite\u63d2\u4ef6","meta":{"order":3}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u591a\u9875\u9762","title":"Vite\u591a\u9875\u9762","meta":{"order":4}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c","title":"Vite\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c","meta":{}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u5f15\u7528md\u6587\u4ef6","title":"Vite \u5f15\u7528 md \u6587\u4ef6","meta":{}},{"path":"/\u5de5\u7a0b\u5316/vite/vite\u8def\u7531\u81ea\u52a8\u6ce8\u518c","title":"Vite\u8def\u7531\u81ea\u52a8\u6ce8\u518c","meta":{}}]},{"title":"Webpack","path":"/\u5de5\u7a0b\u5316/webpack","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/webpack/todo","title":"TODO","meta":{"order":0}},{"path":"/\u5de5\u7a0b\u5316/webpack/\u6253\u5305\u539f\u7406","title":"Webpack \u6253\u5305\u539f\u7406","meta":{"order":1}},{"path":"/\u5de5\u7a0b\u5316/webpack/loader","title":"Loader","meta":{"order":2}},{"path":"/\u5de5\u7a0b\u5316/webpack/loader\u4e0eplugin\u533a\u522b","title":"loader \u4e0e plugin \u533a\u522b","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/plugin","title":"Plugin","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/source map","title":"source map","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/umd\u3001cjs\u3001amd\u3001cmd\u3001esm","title":"Javascript \u4e2d\u7684 CJS, AMD, UMD \u548c ESM","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/webpack\u6784\u5efa\u6027\u80fd","title":"webpack \u6784\u5efa\u6027\u80fd","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/\u6587\u4ef6\u76d1\u542c\u539f\u7406","title":"\u6587\u4ef6\u76d1\u542c\u539f\u7406","meta":{}},{"path":"/\u5de5\u7a0b\u5316/webpack/\u70ed\u66f4\u65b0hmr\u539f\u7406","title":"\u70ed\u66f4\u65b0 HMR \u539f\u7406","meta":{}}]},{"title":"Web\u5b89\u5168","path":"/\u5de5\u7a0b\u5316/web\u5b89\u5168","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/web\u5b89\u5168/todo","title":"Web \u5b89\u5168","meta":{}}]},{"title":"Web\u8bf7\u6c42","path":"/\u5de5\u7a0b\u5316/web\u8bf7\u6c42","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/web\u8bf7\u6c42/todo","title":"Web \u8bf7\u6c42","meta":{}}]},{"title":"\u5355\u5143\u6d4b\u8bd5","path":"/\u5de5\u7a0b\u5316/\u5355\u5143\u6d4b\u8bd5","meta":{},"children":[{"path":"/\u5de5\u7a0b\u5316/\u5355\u5143\u6d4b\u8bd5/jest","title":"Jest","meta":{}}]},{"title":"\u5fae\u524d\u7aef","path":"/\u5de5\u7a0b\u5316/\u5fae\u524d\u7aef","meta":{},"children":[]},{"title":"\u6027\u80fd\u4f18\u5316","path":"/\u5de5\u7a0b\u5316/\u6027\u80fd\u4f18\u5316","meta":{},"children":[]},{"title":"\u76d1\u63a7\u57cb\u70b9","path":"/\u5de5\u7a0b\u5316/\u76d1\u63a7\u57cb\u70b9","meta":{},"children":[]},{"title":"\u7ec4\u4ef6\u5e93","path":"/\u5de5\u7a0b\u5316/\u7ec4\u4ef6\u5e93","meta":{},"children":[]},{"title":"\u811a\u624b\u67b6","path":"/\u5de5\u7a0b\u5316/\u811a\u624b\u67b6","meta":{},"children":[]},{"title":"\u8de8\u7aef","path":"/\u5de5\u7a0b\u5316/\u8de8\u7aef","meta":{},"children":[]}],"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5":[{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5","title":"\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5","meta":{}},{"title":"Algorithm","path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm","meta":{},"children":[{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm","title":"\u7b97\u6cd5","meta":{"order":1}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm/\u6808\u4e0e\u961f\u5217","title":"\u6808\u4e0e\u961f\u5217","meta":{"order":5}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm/\u94fe\u8868","title":"\u94fe\u8868","meta":{"order":6}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm/\u6811-todo","title":"\u6811-TODO","meta":{"order":10}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm/\u6392\u5e8f\u548c\u641c\u7d22\u7b97\u6cd5","title":"\u6392\u5e8f\u548c\u641c\u7d22\u7b97\u6cd5","meta":{"order":13}}]},{"title":"Leetcode","path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode","meta":{},"children":[{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/1. \u4e24\u6570\u4e4b\u548c","title":"1. \u4e24\u6570\u4e4b\u548c","meta":{"order":1}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/9.\u56de\u6587\u6570","title":"9.\u56de\u6587\u6570","meta":{"order":9}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/13. \u7f57\u9a6c\u6570\u5b57\u8f6c\u6574\u6570","title":"13.\u7f57\u9a6c\u6570\u5b57\u8f6c\u6574\u6570","meta":{"order":13}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/14. \u6700\u957f\u516c\u5171\u524d\u7f00","title":"14. \u6700\u957f\u516c\u5171\u524d\u7f00","meta":{"order":14}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/20. \u6709\u6548\u7684\u62ec\u53f7","title":"20. \u6709\u6548\u7684\u62ec\u53f7","meta":{"order":20}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/21. \u5408\u5e76\u4e24\u4e2a\u6709\u5e8f\u94fe\u8868","title":"21. \u5408\u5e76\u4e24\u4e2a\u6709\u5e8f\u94fe\u8868","meta":{"order":21}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/27. \u79fb\u9664\u5143\u7d20","title":"27. \u79fb\u9664\u5143\u7d20","meta":{"order":27}},{"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/leetcode/28. \u5b9e\u73b0 str-str()","title":"28. \u5b9e\u73b0 strStr()","meta":{"order":28}}]}],"/\u6846\u67b6":[{"path":"/\u6846\u67b6","title":"\u6846\u67b6","meta":{}},{"title":"React","path":"/\u6846\u67b6/react","meta":{},"children":[]},{"title":"Vue","path":"/\u6846\u67b6/vue","meta":{},"children":[{"path":"/\u6846\u67b6/vue/todo","title":"TODO","meta":{"order":1}},{"path":"/\u6846\u67b6/vue/\u54cd\u5e94\u5f0f\u539f\u7406","title":"\u54cd\u5e94\u5f0f\u539f\u7406","meta":{"order":2}},{"path":"/\u6846\u67b6/vue/\u865a\u62dfdom","title":"\u865a\u62dfdom","meta":{"order":3}},{"path":"/\u6846\u67b6/vue/vue3-watch-watch-effect","title":"watch\u4e0ewatchEffect\u7684\u533a\u522b","meta":{"order":4}},{"path":"/\u6846\u67b6/vue/keep-alive","title":"KeepAlive","meta":{}},{"path":"/\u6846\u67b6/vue/uni-app \u5f00\u53d1\u6280\u5de7","title":"uni-app \u5f00\u53d1\u5c0f\u6280\u5de7","meta":{}},{"path":"/\u6846\u67b6/vue/vue-router","title":"VueRouter","meta":{}},{"path":"/\u6846\u67b6/vue/vue3-proxy","title":"Vue3-proxy","meta":{}},{"path":"/\u6846\u67b6/vue/vue3-ref\u3001to-ref\u3001to-refs\u3001reactive","title":"ref\u3001toRef\u3001toRefs\u3001reactive","meta":{}},{"path":"/\u6846\u67b6/vue/\u72b6\u6001\u7ba1\u7406pinia","title":"\u72b6\u6001\u7ba1\u7406pinia","meta":{}},{"path":"/\u6846\u67b6/vue/\u72b6\u6001\u7ba1\u7406vuex","title":"Vuex \u5b9e\u73b0\u539f\u7406\uff1a","meta":{}}]},{"title":"\u6e90\u7801\u9605\u8bfb","path":"/\u6846\u67b6/\u6e90\u7801\u9605\u8bfb","meta":{},"children":[]}],"/\u6df1\u5165\u6d45\u51fa":[{"path":"/\u6df1\u5165\u6d45\u51fa","title":"\u6df1\u5165\u6d45\u51fa","meta":{}},{"title":"HTML + Css","path":"/\u6df1\u5165\u6d45\u51fa/html + css","meta":{},"children":[]},{"title":"JavaScript","path":"/\u6df1\u5165\u6d45\u51fa/java-script","meta":{},"children":[{"path":"/\u6df1\u5165\u6d45\u51fa/java-script/base","title":"JavaScript\u57fa\u7840","meta":{"order":1}},{"path":"/\u6df1\u5165\u6d45\u51fa/java-script/es6","title":"es6","meta":{}},{"path":"/\u6df1\u5165\u6d45\u51fa/java-script/extends","title":"\u7ee7\u627fextends","meta":{}},{"path":"/\u6df1\u5165\u6d45\u51fa/java-script/prototype","title":"\u539f\u578bprototype","meta":{}}]},{"title":"Typescript","path":"/\u6df1\u5165\u6d45\u51fa/typescript","meta":{},"children":[{"path":"/\u6df1\u5165\u6d45\u51fa/typescript/todo","title":"Typescript","meta":{}},{"path":"/\u6df1\u5165\u6d45\u51fa/typescript/\u5ffd\u7565\u7c7b\u578b\u68c0\u67e5","title":"TypeScript \u5ffd\u7565\u7c7b\u578b\u68c0\u67e5","meta":{}}]},{"title":"\u8bbe\u8ba1\u6a21\u5f0f","path":"/\u6df1\u5165\u6d45\u51fa/\u8bbe\u8ba1\u6a21\u5f0f","meta":{},"children":[{"path":"/\u6df1\u5165\u6d45\u51fa/\u8bbe\u8ba1\u6a21\u5f0f","title":"\u8bbe\u8ba1\u6a21\u5f0f","meta":{}},{"path":"/\u6df1\u5165\u6d45\u51fa/\u8bbe\u8ba1\u6a21\u5f0f/\u5355\u4f8b\u6a21\u5f0f","title":"\u5355\u4f8b\u6a21\u5f0f","meta":{}},{"path":"/\u6df1\u5165\u6d45\u51fa/\u8bbe\u8ba1\u6a21\u5f0f/\u7b80\u5355\u5de5\u5382\u6a21\u5f0f","title":"\u7b80\u5355\u5de5\u5382\u6a21\u5f0f","meta":{}}]}],"/\u8ba1\u7b97\u673a\u57fa\u7840":[{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/todo","title":"\u8ba1\u7b97\u673a\u57fa\u7840","meta":{"order":0}},{"title":"Nodejs","path":"/\u8ba1\u7b97\u673a\u57fa\u7840/nodejs","meta":{},"children":[]},{"title":"\u64cd\u4f5c\u7cfb\u7edf","path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u64cd\u4f5c\u7cfb\u7edf","meta":{},"children":[{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u64cd\u4f5c\u7cfb\u7edf/todo","title":"TODO","meta":{}}]},{"title":"\u6d4f\u89c8\u5668","path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u6d4f\u89c8\u5668","meta":{},"children":[{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u6d4f\u89c8\u5668/\u6d4f\u89c8\u5668\u8f93\u5165url\u540e\u6d41\u7a0b","title":"\u6d4f\u89c8\u5668\u8f93\u5165 url \u540e\u6d41\u7a0b","meta":{"order":100}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u6d4f\u89c8\u5668/todo","title":"\u6d4f\u89c8\u5668\u7f13\u5b58\u7b56\u7565","meta":{}}]},{"title":"\u7f51\u7edc","path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc","meta":{},"children":[{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/todo","title":"TODO","meta":{"order":0}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/http\u72b6\u6001\u7801","title":"HTTP\u72b6\u6001\u7801","meta":{"order":1}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/gzip\u539f\u7406","title":"gzip \u539f\u7406","meta":{}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/http-https","title":"HTTP \u4e0e HTTPS \u7684\u533a\u522b","meta":{}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/http1-http2","title":"HTTP \u4e0e HTTP2\u7684\u533a\u522b","meta":{}},{"path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/http\u7f13\u5b58","title":"HTTP \u7f13\u5b58","meta":{}}]},{"title":"\u8ba1\u7b97\u673a\u7f51\u7edc","path":"/\u8ba1\u7b97\u673a\u57fa\u7840/\u8ba1\u7b97\u673a\u7f51\u7edc","meta":{},"children":[]}]}},"locales":[{"name":"en-US","label":"English"}],"navs":{"en-US":[{"title":"JS \u57fa\u7840","order":1,"path":"/\u6df1\u5165\u6d45\u51fa"},{"title":"\u6846\u67b6","order":2,"path":"/\u6846\u67b6"},{"order":3,"path":"/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5","title":"\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5"},{"title":"\u5de5\u7a0b\u5316","order":5,"sidemenu":false,"path":"/\u5de5\u7a0b\u5316"},{"order":5,"title":"\u8ba1\u7b97\u673a\u57fa\u7840","path":"/\u8ba1\u7b97\u673a\u57fa\u7840"},{"path":"/interview","title":"Interview"},{"title":"GitHub","path":"https://github.com/Lokep/aligado.git"}]},"title":"Lokep","logo":"https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png","mode":"site","repository":{"url":"","branch":"master"},"theme":{}}',
     );
   },
   q80O: function (e, t, n) {
@@ -59602,7 +59603,7 @@
               r.a.createElement(
                 'p',
                 null,
-                ':tada: \xa0 \u76ee\u524d\uff0cuni-app\u8de8\u7aef\u6846\u67b6\u5728\u56e2\u961f\u57fa\u672c\u5b8c\u6210\u843d\u5730\uff0c\u4e14\u6295\u5165\u591a\u4e2a\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u9879\u76ee\u4e2d\u4f7f\u7528\u3002',
+                '\u76ee\u524d\uff0cuni-app \u8de8\u7aef\u6846\u67b6\u5728\u56e2\u961f\u57fa\u672c\u5b8c\u6210\u843d\u5730\uff0c\u4e14\u6295\u5165\u591a\u4e2a\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u9879\u76ee\u4e2d\u4f7f\u7528\u3002',
                 r.a.createElement('br', null),
                 '\u672c\u6587\u4f1a\u91cd\u70b9\u4ecb\u7ecd\u5728\u5c0f\u7a0b\u5e8f\u573a\u666f\u4e0b\u7684\u4e00\u4e9b\u5f00\u53d1\u6280\u5de7\uff0c\u4e5f\u975e\u5e38\u6b22\u8fce\u5404\u4f4d\u540c\u5b66\u7684\u8865\u5145\u3002',
               ),
@@ -59618,7 +59619,7 @@
               '\u4e00\u3001\u9879\u76ee\u914d\u7f6e',
             ),
             r.a.createElement(i['a'], {
-              code: '\u250c\u2500api                \u7528\u4e8e\u8bf7\u6c42\u65b9\u6cd5\u7ba1\u7406\n\u251c\u2500assets     \n\u2502  \u2514\u2500styles          iconfont/base/var\u7b49\u6837\u5f0f\u6587\u4ef6\u7ba1\u7406        \n\u251c\u2500components         \u7b26\u5408vue\u7ec4\u4ef6\u89c4\u8303\u7684uni-app\u7ec4\u4ef6\u76ee\u5f55\n\u2502  \u2514\u2500comp-a.vue      \u53ef\u590d\u7528\u7684a\u7ec4\u4ef6           \n\u251c\u2500constant           \u5e38\u91cf\u7ba1\u7406\n\u251c\u2500pages              \u4e1a\u52a1\u9875\u9762\u6587\u4ef6\u5b58\u653e\u7684\u76ee\u5f55\n\u2502  \u251c\u2500index\n\u2502  \u2502  \u2514\u2500index.vue    index\u9875\u9762\n\u2502  \u2514\u2500[subpackage]    \u5206\u5305\n\u2502     \u2514\u2500list.vue     \u5206\u5305\u5185\u5b50\u9875\u9762\n\u251c\u2500static             \u5b58\u653e\u5e94\u7528\u5f15\u7528\u7684\u672c\u5730\u9759\u6001\u8d44\u6e90\uff08\u5982\u56fe\u7247\u3001\u89c6\u9891\u7b49\uff09\u7684\u76ee\u5f55\n\u251c\u2500store              vuex\u72b6\u6001\u7ba1\u7406\u76ee\u5f55\n\u251c\u2500utils              \u5de5\u5177\u65b9\u6cd5\u7ba1\u7406\u76ee\u5f55\n\u251c\u2500main.js            Vue\u521d\u59cb\u5316\u5165\u53e3\u6587\u4ef6\n\u251c\u2500App.vue            \u5e94\u7528\u914d\u7f6e\uff0c\u7528\u6765\u914d\u7f6eApp\u5168\u5c40\u6837\u5f0f\u4ee5\u53ca\u76d1\u542c \u5e94\u7528\u751f\u547d\u5468\u671f\n\u251c\u2500manifest.json      \u914d\u7f6e\u5e94\u7528\u540d\u79f0\u3001appid\u3001logo\u3001\u7248\u672c\u7b49\u6253\u5305\u4fe1\u606f\uff0c\u8be6\u89c1\n\u251c\u2500pages.json         \u914d\u7f6e\u9875\u9762\u8def\u7531\u3001\u5bfc\u822a\u6761\u3001\u9009\u9879\u5361\u7b49\u9875\u9762\u7c7b\u4fe1\u606f\uff0c\u8be6\u89c1\n\u2514\u2500uni.scss           \u8fd9\u91cc\u662funi-app\u5185\u7f6e\u7684\u5e38\u7528\u6837\u5f0f\u53d8\u91cf',
+              code: '\u250c\u2500api \u7528\u4e8e\u8bf7\u6c42\u65b9\u6cd5\u7ba1\u7406 \u251c\u2500assets  \n\u2502 \u2514\u2500styles iconfont/base/var \u7b49\u6837\u5f0f\u6587\u4ef6\u7ba1\u7406  \n\u251c\u2500components \u7b26\u5408 vue \u7ec4\u4ef6\u89c4\u8303\u7684 uni-app \u7ec4\u4ef6\u76ee\u5f55 \u2502 \u2514\u2500comp-a.vue \u53ef\u590d\u7528\u7684 a \u7ec4\u4ef6  \n\u251c\u2500constant \u5e38\u91cf\u7ba1\u7406 \u251c\u2500pages \u4e1a\u52a1\u9875\u9762\u6587\u4ef6\u5b58\u653e\u7684\u76ee\u5f55 \u2502 \u251c\u2500index \u2502 \u2502 \u2514\u2500index.vue index \u9875\u9762 \u2502 \u2514\u2500[subpackage] \u5206\u5305 \u2502 \u2514\u2500list.vue \u5206\u5305\u5185\u5b50\u9875\u9762 \u251c\u2500static \u5b58\u653e\u5e94\u7528\u5f15\u7528\u7684\u672c\u5730\u9759\u6001\u8d44\u6e90\uff08\u5982\u56fe\u7247\u3001\u89c6\u9891\u7b49\uff09\u7684\u76ee\u5f55 \u251c\u2500store vuex \u72b6\u6001\u7ba1\u7406\u76ee\u5f55 \u251c\u2500utils \u5de5\u5177\u65b9\u6cd5\u7ba1\u7406\u76ee\u5f55 \u251c\u2500main.js Vue \u521d\u59cb\u5316\u5165\u53e3\u6587\u4ef6 \u251c\u2500App.vue \u5e94\u7528\u914d\u7f6e\uff0c\u7528\u6765\u914d\u7f6e App \u5168\u5c40\u6837\u5f0f\u4ee5\u53ca\u76d1\u542c \u5e94\u7528\u751f\u547d\u5468\u671f \u251c\u2500manifest.json \u914d\u7f6e\u5e94\u7528\u540d\u79f0\u3001appid\u3001logo\u3001\u7248\u672c\u7b49\u6253\u5305\u4fe1\u606f\uff0c\u8be6\u89c1 \u251c\u2500pages.json \u914d\u7f6e\u9875\u9762\u8def\u7531\u3001\u5bfc\u822a\u6761\u3001\u9009\u9879\u5361\u7b49\u9875\u9762\u7c7b\u4fe1\u606f\uff0c\u8be6\u89c1 \u2514\u2500uni.scss \u8fd9\u91cc\u662f uni-app \u5185\u7f6e\u7684\u5e38\u7528\u6837\u5f0f\u53d8\u91cf',
               lang: 'markdown',
             }),
             r.a.createElement(
@@ -59690,18 +59691,22 @@
             ),
             r.a.createElement(
               'h4',
-              { id: '111-\u7ec4\u4ef6\u6ce8\u518ceasycom' },
+              { id: '111-\u7ec4\u4ef6\u6ce8\u518c-easycom' },
               r.a.createElement(
                 l['AnchorLink'],
-                { to: '#111-\u7ec4\u4ef6\u6ce8\u518ceasycom', 'aria-hidden': 'true', tabIndex: -1 },
+                {
+                  to: '#111-\u7ec4\u4ef6\u6ce8\u518c-easycom',
+                  'aria-hidden': 'true',
+                  tabIndex: -1,
+                },
                 r.a.createElement('span', { className: 'icon icon-link' }),
               ),
-              '1.1.1 \u7ec4\u4ef6\u6ce8\u518ceasycom',
+              '1.1.1 \u7ec4\u4ef6\u6ce8\u518c easycom',
             ),
             r.a.createElement(
               'p',
               null,
-              '\u4f20\u7edfvue\u7ec4\u4ef6\uff0c\u9700\u8981 ',
+              '\u4f20\u7edf vue \u7ec4\u4ef6\uff0c\u9700\u8981 ',
               r.a.createElement('code', null, '\u5b89\u88c5'),
               '\u3001',
               r.a.createElement('code', null, '\u5f15\u7528'),
@@ -59885,7 +59890,7 @@
               '\u5f00\u542f\u5206\u5305\u4f18\u5316',
             ),
             r.a.createElement(i['a'], {
-              code: '/*\n* manifest.json\u6587\u4ef6\u4e2d\uff0c\u5728mp-weixin\u5bf9\u8c61\u4e2d\u6dfb\u52a0\u4ee5\u4e0b\u914d\u7f6e\n* "optimization":{"subPackages":true}\n*/\n\n{\n  ..., \n  "mp-weixin": {\n\n    "appid": "",\n    "setting": {\n      "urlCheck": false\n    },\n    "usingComponents": true,\n    "optimization":{ \n      "subPackages":true \n    }\n\n  }, \n  ...\n}',
+              code: '/*\n* manifest.json\u6587\u4ef6\u4e2d\uff0c\u5728mp-weixin\u5bf9\u8c61\u4e2d\u6dfb\u52a0\u4ee5\u4e0b\u914d\u7f6e\n* "optimization":{"subPackages":true}\n*/\n\n{\n  ...,\n  "mp-weixin": {\n\n    "appid": "",\n    "setting": {\n      "urlCheck": false\n    },\n    "usingComponents": true,\n    "optimization":{\n      "subPackages":true\n    }\n\n  },\n  ...\n}',
               lang: 'json',
             }),
             r.a.createElement(
@@ -59894,20 +59899,28 @@
               r.a.createElement(
                 'li',
                 null,
-                '\u76ee\u524d\u53ea\u652f\u6301',
-                r.a.createElement('code', null, 'mp-weixin'),
-                '\u3001',
-                r.a.createElement('code', null, 'mp-qq'),
-                '\u3001',
-                r.a.createElement('code', null, 'mp-baidu'),
-                '\u3001',
-                r.a.createElement('code', null, 'mp-toutiao'),
-                '\u7684\u5206\u5305\u4f18\u5316',
+                r.a.createElement(
+                  'p',
+                  null,
+                  '\u76ee\u524d\u53ea\u652f\u6301',
+                  r.a.createElement('code', null, 'mp-weixin'),
+                  '\u3001',
+                  r.a.createElement('code', null, 'mp-qq'),
+                  '\u3001',
+                  r.a.createElement('code', null, 'mp-baidu'),
+                  '\u3001',
+                  r.a.createElement('code', null, 'mp-toutiao'),
+                  '\u7684\u5206\u5305\u4f18\u5316',
+                ),
               ),
               r.a.createElement(
                 'li',
                 null,
-                '\u5206\u5305\u4f18\u5316\u5177\u4f53\u903b\u8f91\uff1a',
+                r.a.createElement(
+                  'p',
+                  null,
+                  '\u5206\u5305\u4f18\u5316\u5177\u4f53\u903b\u8f91\uff1a',
+                ),
                 r.a.createElement(
                   'ul',
                   null,
@@ -59978,21 +59991,21 @@
               null,
               '\u5f53\u6211\u4eec\u8fdb\u884c\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u7ec4\u4ef6\u5f00\u53d1\uff0c\u4f46\u53c8\u9700\u8981\u5bf9\u7ec4\u4ef6\u6837\u5f0f\u8fdb\u884c\u9694\u79bb\u65f6\uff0c\u6211\u4eec\u901a\u5e38\u4f1a\u7528 ',
               r.a.createElement('code', null, 'styleIsolation'),
-              ' \u6765\u8fdb\u884c\u914d\u7f6e\uff0c\u90a3\u6211\u4eec\u5728\u4f7f\u7528uni-app\u7684\u65f6\u5019\uff0c\u5e94\u8be5\u600e\u4e48\u505a\u5462\uff1f',
+              ' \u6765\u8fdb\u884c\u914d\u7f6e\uff0c\u90a3\u6211\u4eec\u5728\u4f7f\u7528 uni-app \u7684\u65f6\u5019\uff0c\u5e94\u8be5\u600e\u4e48\u505a\u5462\uff1f',
             ),
             r.a.createElement(i['a'], {
-              code: 'export default {\n  options: {\n    /**\n     * \u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u4e2d options \u9009\u9879, \n     * \u5728\u7ec4\u4ef6\u5b9a\u4e49\u65f6\u7684\u9009\u9879\u4e2d\u542f\u52a8\u591aslot\u652f\u6301\uff0c\u9ed8\u8ba4\u542f\u7528\n    */\n    multipleSlots: true, \n    /** \n     * \u542f\u52a8\u6837\u5f0f\u9694\u79bb\u3002\u5f53\u4f7f\u7528\u9875\u9762\u81ea\u5b9a\u4e49\u7ec4\u4ef6\uff0c\u5e0c\u671b\u7236\u7ec4\u4ef6\u5f71\u54cd\u5b50\u7ec4\u4ef6\u6837\u5f0f\u65f6\u53ef\u80fd\u9700\u8981\u914d\u7f6e\u3002\n     * \u5177\u4f53\u914d\u7f6e\u9009\u9879\u53c2\u89c1\uff1a\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u7684\u6837\u5f0f\n    */\n    styleIsolation: "isolated",  \n    /**\n     * \u8868\u793a\u9875\u9762\u6837\u5f0f\u5c06\u5f71\u54cd\u5230\u81ea\u5b9a\u4e49\u7ec4\u4ef6\uff0c\u4f46\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u4e2d\u6307\u5b9a\u7684\u6837\u5f0f\u4e0d\u4f1a\u5f71\u54cd\u9875\u9762\u3002\n     * \u8fd9\u4e2a\u9009\u9879\u7b49\u4ef7\u4e8e\u8bbe\u7f6e styleIsolation: apply-shared\n    */\n    addGlobalClass: true,  \n    /**\n     * \u5c06\u81ea\u5b9a\u4e49\u8282\u70b9\u8bbe\u7f6e\u6210\u865a\u62df\u7684\uff0c\u66f4\u52a0\u63a5\u8fd1Vue\u7ec4\u4ef6\u7684\u8868\u73b0\n     * \u6211\u4eec\u4e0d\u5e0c\u671b\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u7684\u8fd9\u4e2a\u8282\u70b9\u672c\u8eab\u53ef\u4ee5\u8bbe\u7f6e\u6837\u5f0f\u3001\u54cd\u5e94 flex \u5e03\u5c40\u7b49\n     * \u800c\u662f\u5e0c\u671b\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u5185\u90e8\u7684\u7b2c\u4e00\u5c42\u8282\u70b9\u80fd\u591f\u54cd\u5e94 flex \u5e03\u5c40\u6216\u8005\u6837\u5f0f\u7531\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u672c\u8eab\u5b8c\u5168\u51b3\u5b9a\n    */\n    virtualHost: true, \n  }\n}',
+              code: "export default {\n  options: {\n    /**\n     * \u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u4e2d options \u9009\u9879,\n     * \u5728\u7ec4\u4ef6\u5b9a\u4e49\u65f6\u7684\u9009\u9879\u4e2d\u542f\u52a8\u591aslot\u652f\u6301\uff0c\u9ed8\u8ba4\u542f\u7528\n     */\n    multipleSlots: true,\n    /**\n     * \u542f\u52a8\u6837\u5f0f\u9694\u79bb\u3002\u5f53\u4f7f\u7528\u9875\u9762\u81ea\u5b9a\u4e49\u7ec4\u4ef6\uff0c\u5e0c\u671b\u7236\u7ec4\u4ef6\u5f71\u54cd\u5b50\u7ec4\u4ef6\u6837\u5f0f\u65f6\u53ef\u80fd\u9700\u8981\u914d\u7f6e\u3002\n     * \u5177\u4f53\u914d\u7f6e\u9009\u9879\u53c2\u89c1\uff1a\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u7684\u6837\u5f0f\n     */\n    styleIsolation: 'isolated',\n    /**\n     * \u8868\u793a\u9875\u9762\u6837\u5f0f\u5c06\u5f71\u54cd\u5230\u81ea\u5b9a\u4e49\u7ec4\u4ef6\uff0c\u4f46\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u4e2d\u6307\u5b9a\u7684\u6837\u5f0f\u4e0d\u4f1a\u5f71\u54cd\u9875\u9762\u3002\n     * \u8fd9\u4e2a\u9009\u9879\u7b49\u4ef7\u4e8e\u8bbe\u7f6e styleIsolation: apply-shared\n     */\n    addGlobalClass: true,\n    /**\n     * \u5c06\u81ea\u5b9a\u4e49\u8282\u70b9\u8bbe\u7f6e\u6210\u865a\u62df\u7684\uff0c\u66f4\u52a0\u63a5\u8fd1Vue\u7ec4\u4ef6\u7684\u8868\u73b0\n     * \u6211\u4eec\u4e0d\u5e0c\u671b\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u7684\u8fd9\u4e2a\u8282\u70b9\u672c\u8eab\u53ef\u4ee5\u8bbe\u7f6e\u6837\u5f0f\u3001\u54cd\u5e94 flex \u5e03\u5c40\u7b49\n     * \u800c\u662f\u5e0c\u671b\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u5185\u90e8\u7684\u7b2c\u4e00\u5c42\u8282\u70b9\u80fd\u591f\u54cd\u5e94 flex \u5e03\u5c40\u6216\u8005\u6837\u5f0f\u7531\u81ea\u5b9a\u4e49\u7ec4\u4ef6\u672c\u8eab\u5b8c\u5168\u51b3\u5b9a\n     */\n    virtualHost: true,\n  },\n};",
               lang: 'javascript',
             }),
             r.a.createElement(
               'h2',
-              { id: '\u4e8c\u4ee3\u7801coding' },
+              { id: '\u4e8c\u4ee3\u7801-coding' },
               r.a.createElement(
                 l['AnchorLink'],
-                { to: '#\u4e8c\u4ee3\u7801coding', 'aria-hidden': 'true', tabIndex: -1 },
+                { to: '#\u4e8c\u4ee3\u7801-coding', 'aria-hidden': 'true', tabIndex: -1 },
                 r.a.createElement('span', { className: 'icon icon-link' }),
               ),
-              '\u4e8c\u3001\u4ee3\u7801Coding',
+              '\u4e8c\u3001\u4ee3\u7801 Coding',
             ),
             r.a.createElement(
               'h3',
@@ -60013,11 +60026,11 @@
                 r.a.createElement('code', null, 'Class'),
                 '\u4e0e',
                 r.a.createElement('code', null, 'Styl'),
-                'e\u7ed1\u5b9a',
+                'e \u7ed1\u5b9a',
               ),
             ),
             r.a.createElement(i['a'], {
-              code: "<template>\n  // bad\n  <span :class=\"item1.score==='N/A'||item1.score===-1||!item1.score?'number-mini':'number'\">\n\n    {{item1.score!==-1&&item1.score?item1.score:'N/A'}}\n\n  </span>\n\n  <span :class=\"cls\">\n\n    {{item1.score!==-1&&item1.score?item1.score:'N/A'}}\n\n  </span>\n</template>\n\n<script>\nexport default {\n  computed: {\n\n    cls() {\n      return {\n        [ `jh-button--${this.type}` ]: true,\n        [ `jh-button--${this.size}` ]: true,\n        'jh-button--plain': this.plain,\n        'jh-button--disabled': this.disabled,\n        'jh-button--round': this.round,\n        'jh-button--block': this.block\n      }\n    },\n\n  }\n}\n</script>",
+              code: "<template>\n  // bad\n  <span\n    :class=\"item1.score === 'N/A' || item1.score === -1 || !item1.score ? 'number-mini' : 'number'\"\n  >\n    {{ item1.score !== -1 && item1.score ? item1.score : 'N/A' }}\n  </span>\n\n  <span :class=\"cls\">\n    {{ item1.score !== -1 && item1.score ? item1.score : 'N/A' }}\n  </span>\n</template>\n\n<script>\nexport default {\n  computed: {\n    cls() {\n      return {\n        [`jh-button--${this.type}`]: true,\n        [`jh-button--${this.size}`]: true,\n        'jh-button--plain': this.plain,\n        'jh-button--disabled': this.disabled,\n        'jh-button--round': this.round,\n        'jh-button--block': this.block,\n      };\n    },\n  },\n};\n</script>",
               lang: 'vue',
             }),
             r.a.createElement(
@@ -60032,7 +60045,7 @@
                   null,
                   '\u6211\u4eec\u53ef\u4ee5\u8bbe\u60f3\u8fd9\u6837\u4e24\u4e2a\u573a\u666f:',
                   r.a.createElement('br', null),
-                  'a. \u4e00\u4e2a\u5c0f\u7a0b\u5e8f\u7684tabbar\u9875\u9762\uff0c\u5728\u6bcf\u4e00\u6b21\u8fdb\u5165\u7684\u65f6\u5019\u8bf7\u6c42\u6570\u636e\uff0c\u9875\u9762\u4f1a\u56e0\u4e3a\u6570\u636e\u7684\u6e05\u7a7a\u5237\u65b0\u800c\u95ea\u70c1\uff1b',
+                  'a. \u4e00\u4e2a\u5c0f\u7a0b\u5e8f\u7684 tabbar \u9875\u9762\uff0c\u5728\u6bcf\u4e00\u6b21\u8fdb\u5165\u7684\u65f6\u5019\u8bf7\u6c42\u6570\u636e\uff0c\u9875\u9762\u4f1a\u56e0\u4e3a\u6570\u636e\u7684\u6e05\u7a7a\u5237\u65b0\u800c\u95ea\u70c1\uff1b',
                   r.a.createElement('br', null),
                   'b. \u5f53\u6211\u4eec\u4ece\u4e00\u4e2a\u5217\u8868\u9875\u8fdb\u5165\u4e00\u4e2a\u8be6\u60c5\u9875\uff0c\u4e14\u8fd9\u4e2a\u8be6\u60c5\u9875\u4e2d\u8bf7\u6c42\u8f83\u6162\u65f6',
                 ),
@@ -60059,24 +60072,20 @@
                     'li',
                     null,
                     r.a.createElement('code', null, 'uni.$emit'),
-                    ' \u89e6\u53d1\u5168\u5c40\u7684\u81ea\u5b9a\u4e49\u4e8b\u4ef6',
+                    ' \u89e6\u53d1\u5168\u5c40\u7684\u81ea\u5b9a\u4e49\u4e8b\u4ef6 ',
+                    r.a.createElement(
+                      l['Link'],
+                      { to: 'https://uniapp.dcloud.io/api/window/communication.html#emit' },
+                      '\u8de8\u9875\u9762\u901a\u8baf',
+                    ),
                   ),
                 ),
                 r.a.createElement(
                   'p',
                   null,
-                  r.a.createElement(
-                    l['Link'],
-                    { to: 'https://uniapp.dcloud.io/api/window/communication.html#emit' },
-                    '\u8de8\u9875\u9762\u901a\u8baf',
-                  ),
-                ),
-                r.a.createElement(
-                  'p',
-                  null,
-                  '\u5982\u573a\u666fa\u90a3\u6837\uff0c\u9875\u9762\u4e4b\u95f4\u5b58\u5728\u524d\u540e\u94fe\u63a5\u5173\u7cfb\uff0c\u6211\u4eec\u5c31\u53ef\u4ee5\u901a\u8fc7 ',
+                  '\u5982\u573a\u666f a \u90a3\u6837\uff0c\u9875\u9762\u4e4b\u95f4\u5b58\u5728\u524d\u540e\u94fe\u63a5\u5173\u7cfb\uff0c\u6211\u4eec\u5c31\u53ef\u4ee5\u901a\u8fc7 ',
                   r.a.createElement('code', null, 'eventChannel'),
-                  ' \u8fdb\u884c\u6570\u636e\u4f20\u9012\uff0c \u5f53\u9875\u9762\u6808\u4e2d\uff0c\u8de8\u8d8a\u4e86\u591a\u4e2a\u9875\u9762\u65f6\uff0c\u6211\u4eec\u5c31\u53ef\u4ee5\u5c1d\u8bd5\u7740\u7528 ',
+                  ' \u8fdb\u884c\u6570\u636e\u4f20\u9012\uff0c\u5f53\u9875\u9762\u6808\u4e2d\uff0c\u8de8\u8d8a\u4e86\u591a\u4e2a\u9875\u9762\u65f6\uff0c\u6211\u4eec\u5c31\u53ef\u4ee5\u5c1d\u8bd5\u7740\u7528 ',
                   r.a.createElement('code', null, 'uni.$emit'),
                   ' \u6765\u66f4\u65b0\u6570\u636e',
                 ),
@@ -60141,7 +60150,7 @@
                   r.a.createElement('code', null, 'css'),
                 ),
                 r.a.createElement(i['a'], {
-                  code: '&__slot{\n  & + .jh-badge__content {\n    display: none;\n  }\n  &:empty {\n    & + .jh-badge__content {\n      display: block;\n    }\n  }\n}',
+                  code: '&__slot {\n  & + .jh-badge__content {\n    display: none;\n  }\n  &:empty {\n    & + .jh-badge__content {\n      display: block;\n    }\n  }\n}',
                   lang: 'scss',
                 }),
               ),
@@ -60177,7 +60186,7 @@
               r.a.createElement(
                 'p',
                 null,
-                '\u867d\u7136\u6211\u4eec\u9700\u8981\u83b7\u53d6\u5f53\u524droute\u4fe1\u606f\u7684\u573a\u666f\u4e0d\u662f\u5f88\u591a\uff0c\u4f46\u662f\u6211\u4eec\u8fd8\u662f\u9700\u8981\u5bf9\u8def\u7531\u8981\u6709\u4e00\u5b9a\u7684\u4e86\u89e3',
+                '\u867d\u7136\u6211\u4eec\u9700\u8981\u83b7\u53d6\u5f53\u524d route \u4fe1\u606f\u7684\u573a\u666f\u4e0d\u662f\u5f88\u591a\uff0c\u4f46\u662f\u6211\u4eec\u8fd8\u662f\u9700\u8981\u5bf9\u8def\u7531\u8981\u6709\u4e00\u5b9a\u7684\u4e86\u89e3',
               ),
             ),
             r.a.createElement(
@@ -60201,23 +60210,23 @@
               '\u8fd9\u662f\u6211\u4eec\u5e38\u7528\u7684\u505a\u6cd5\uff1a',
             ),
             r.a.createElement(i['a'], {
-              code: 'const pages = getCurrentPages()\nconst [firstRoute] = pages\n\n/**\n * firstRoute: {\n *  onHide: Function\n *  onLoad: Function\n *  onReady: Function\n *  onResize: Function\n *  onRouteEnd: Function\n *  onShow: Function\n *  onUnload: Function\n *  options: {}\n *  route: "pages/tabbar/patient-manage/index"\n * }\n*/',
+              code: 'const pages = getCurrentPages();\nconst [firstRoute] = pages;\n\n/**\n * firstRoute: {\n *  onHide: Function\n *  onLoad: Function\n *  onReady: Function\n *  onResize: Function\n *  onRouteEnd: Function\n *  onShow: Function\n *  onUnload: Function\n *  options: {}\n *  route: "pages/tabbar/patient-manage/index"\n * }\n */',
               lang: 'javascript',
             }),
             r.a.createElement(
               'h4',
-              { id: '222-\u9690\u85cfapi' },
+              { id: '222-\u9690\u85cf-api' },
               r.a.createElement(
                 l['AnchorLink'],
-                { to: '#222-\u9690\u85cfapi', 'aria-hidden': 'true', tabIndex: -1 },
+                { to: '#222-\u9690\u85cf-api', 'aria-hidden': 'true', tabIndex: -1 },
                 r.a.createElement('span', { className: 'icon icon-link' }),
               ),
-              '2.2.2 \u9690\u85cfAPI',
+              '2.2.2 \u9690\u85cf API',
             ),
             r.a.createElement(
               'p',
               null,
-              '\u5728\u505a\u5c0f\u7a0b\u5e8f\u9875\u9762\u81ea\u52a8\u5316\u57cb\u70b9\u9700\u6c42\u65f6\uff0c\u53d1\u73b0\u4e86\u4e24\u4e2a\u5c0f\u7a0b\u5e8f\u9690\u85cf\u7684API\uff0c\u5206\u522b\u662f\uff1a',
+              '\u5728\u505a\u5c0f\u7a0b\u5e8f\u9875\u9762\u81ea\u52a8\u5316\u57cb\u70b9\u9700\u6c42\u65f6\uff0c\u53d1\u73b0\u4e86\u4e24\u4e2a\u5c0f\u7a0b\u5e8f\u9690\u85cf\u7684 API\uff0c\u5206\u522b\u662f\uff1a',
             ),
             r.a.createElement(
               'ul',
@@ -60226,18 +60235,18 @@
               r.a.createElement('li', null, 'onAppRouteDone'),
             ),
             r.a.createElement(i['a'], {
-              code: "wx.onAppRoute(res => {\n  const { path = '', query } = res;\n  console.log('[onAppRoute]: ', path, query)\n})",
+              code: "wx.onAppRoute((res) => {\n  const { path = '', query } = res;\n  console.log('[onAppRoute]: ', path, query);\n});",
               lang: 'javascript',
             }),
             r.a.createElement(
               'p',
               null,
-              '\u611f\u5174\u8da3\u7684\u540c\u5b66\u53ef\u4ee5\u590d\u5236\u8fd9\u51e0\u884c\u4ee3\u7801\uff0c\u653e\u5230\u5c0f\u7a0b\u5e8f\u5f00\u53d1\u5de5\u5177\u7684console\u91cc\u5c1d\u8bd5\u4e00\u4e0b\u3002',
+              '\u611f\u5174\u8da3\u7684\u540c\u5b66\u53ef\u4ee5\u590d\u5236\u8fd9\u51e0\u884c\u4ee3\u7801\uff0c\u653e\u5230\u5c0f\u7a0b\u5e8f\u5f00\u53d1\u5de5\u5177\u7684 console \u91cc\u5c1d\u8bd5\u4e00\u4e0b\u3002',
             ),
             r.a.createElement(
               'p',
               null,
-              '\u5f53\u7136\u4e86\uff0c\u8fd9\u4e24\u4e2aapi\u6211\u4eec\u53ea\u80fd\u7528\u6765\u76d1\u542c\u8def\u7531\u7684\u53d8\u5316\uff0c\u5e76\u4e0d\u80fd\u4f5c\u4e3a\u8def\u7531\u5b88\u536b\u6765\u4f7f\u7528\u3002',
+              '\u5f53\u7136\u4e86\uff0c\u8fd9\u4e24\u4e2a api \u6211\u4eec\u53ea\u80fd\u7528\u6765\u76d1\u542c\u8def\u7531\u7684\u53d8\u5316\uff0c\u5e76\u4e0d\u80fd\u4f5c\u4e3a\u8def\u7531\u5b88\u536b\u6765\u4f7f\u7528\u3002',
             ),
             r.a.createElement(
               'h3',
@@ -60279,7 +60288,7 @@
               ),
             ),
             r.a.createElement(i['a'], {
-              code: '<template>\n  \x3c!--  #ifdef  MP-WEIXIN --\x3e\n    \u5e73\u53f0\u7279\u6709\u7684\u7ec4\u4ef6\n  \x3c!--  #endif --\x3e\n</template>\n<script>\n  // #ifdef MP-WEIXIN\n    \u5e73\u53f0\u7279\u6709\u7684API\u5b9e\u73b0\n  // #endif\n</script>\n<style>\n  /*  #ifdef MP-WEIXIN  */\n    \u5e73\u53f0\u7279\u6709\u6837\u5f0f\n  /*  #endif  */\n</style>',
+              code: '<template>\n  \x3c!--  #ifdef  MP-WEIXIN --\x3e\n  \u5e73\u53f0\u7279\u6709\u7684\u7ec4\u4ef6\n  \x3c!--  #endif --\x3e\n</template>\n<script>\n// #ifdef MP-WEIXIN\n\u5e73\u53f0\u7279\u6709\u7684API\u5b9e\u73b0;\n// #endif\n</script>\n<style>\n/*  #ifdef MP-WEIXIN  */\n  \u5e73\u53f0\u7279\u6709\u6837\u5f0f\n/*  #endif  */\n</style>',
               lang: 'vue',
             }),
             r.a.createElement(
@@ -60288,18 +60297,18 @@
               '\u4e0b\u9762\u7684\u9875\u9762\uff0c\u53ea\u6709\u8fd0\u884c\u81f3 \u5fae\u4fe1\u5c0f\u7a0b\u5e8f \u65f6\u624d\u4f1a\u7f16\u8bd1\u8fdb\u53bb\u3002',
             ),
             r.a.createElement(i['a'], {
-              code: '{\n\n  "pages": [\n    // #ifdef MP-WEIXIN\n    {\n      "path": "pages/index/index",\n      "style": {}\n    }\n    // #endif\n  ]\n\n}',
+              code: '{\n  "pages": [\n    // #ifdef MP-WEIXIN\n    {\n      "path": "pages/index/index",\n      "style": {}\n    }\n    // #endif\n  ]\n}',
               lang: 'json',
             }),
             r.a.createElement(
               'h2',
-              { id: '\u4e09devtools\u4f7f\u7528' },
+              { id: '\u4e09devtools-\u4f7f\u7528' },
               r.a.createElement(
                 l['AnchorLink'],
-                { to: '#\u4e09devtools\u4f7f\u7528', 'aria-hidden': 'true', tabIndex: -1 },
+                { to: '#\u4e09devtools-\u4f7f\u7528', 'aria-hidden': 'true', tabIndex: -1 },
                 r.a.createElement('span', { className: 'icon icon-link' }),
               ),
-              '\u4e09\u3001Devtools\u4f7f\u7528',
+              '\u4e09\u3001Devtools \u4f7f\u7528',
             ),
             r.a.createElement(
               'h3',
@@ -62003,7 +62012,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/interview/index.md',
-                updatedTime: 1650557673e3,
+                updatedTime: 1651810635e3,
                 slugs: [
                   { depth: 1, value: 'TODO', heading: 'todo' },
                   { depth: 2, value: 'question', heading: 'question' },
@@ -62154,7 +62163,7 @@
               meta: {
                 filePath:
                   'src/\u5de5\u7a0b\u5316/Vite/Vite\u5728\u6d4f\u89c8\u5668\u4e2d\u8fd0\u884c.md',
-                updatedTime: 1651470733381,
+                updatedTime: 1651810635e3,
                 slugs: [],
                 nav: { path: '/\u5de5\u7a0b\u5316', title: '\u5de5\u7a0b\u5316' },
                 group: { path: '/\u5de5\u7a0b\u5316/vite', title: 'Vite' },
@@ -62189,21 +62198,21 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u5de5\u7a0b\u5316/Vite/Vite\u5f15\u7528md\u6587\u4ef6.md',
-                updatedTime: 1651393093825,
+                updatedTime: 1651810635e3,
                 slugs: [
                   {
                     depth: 1,
-                    value: 'Vite\u5f15\u7528md\u6587\u4ef6',
-                    heading: 'vite\u5f15\u7528md\u6587\u4ef6',
+                    value: 'Vite \u5f15\u7528 md \u6587\u4ef6',
+                    heading: 'vite-\u5f15\u7528-md-\u6587\u4ef6',
                   },
                   { depth: 2, value: '\u65b9\u6848\u4e00', heading: '\u65b9\u6848\u4e00' },
                   { depth: 2, value: '\u65b9\u6848\u4e8c', heading: '\u65b9\u6848\u4e8c' },
                 ],
-                title: 'Vite\u5f15\u7528md\u6587\u4ef6',
+                title: 'Vite \u5f15\u7528 md \u6587\u4ef6',
                 nav: { path: '/\u5de5\u7a0b\u5316', title: '\u5de5\u7a0b\u5316' },
                 group: { path: '/\u5de5\u7a0b\u5316/vite', title: 'Vite' },
               },
-              title: 'Vite\u5f15\u7528md\u6587\u4ef6 - Lokep',
+              title: 'Vite \u5f15\u7528 md \u6587\u4ef6 - Lokep',
             },
             {
               path: '/\u5de5\u7a0b\u5316/vite/vite\u63d2\u4ef6',
@@ -62241,7 +62250,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u5de5\u7a0b\u5316/Vite/Vite\u8def\u7531\u81ea\u52a8\u6ce8\u518c.md',
-                updatedTime: 1651392578108,
+                updatedTime: 1651810635e3,
                 slugs: [],
                 nav: { path: '/\u5de5\u7a0b\u5316', title: '\u5de5\u7a0b\u5316' },
                 group: { path: '/\u5de5\u7a0b\u5316/vite', title: 'Vite' },
@@ -62425,7 +62434,7 @@
               meta: {
                 filePath:
                   'src/\u5de5\u7a0b\u5316/webpack/umd\u3001cjs\u3001amd\u3001cmd\u3001esm.md',
-                updatedTime: 1650698207761,
+                updatedTime: 1651810635e3,
                 slugs: [
                   {
                     depth: 1,
@@ -62530,7 +62539,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u5de5\u7a0b\u5316/webpack/\u6253\u5305\u539f\u7406.md',
-                updatedTime: 1650557673e3,
+                updatedTime: 1651810635e3,
                 order: 1,
                 title: 'Webpack \u6253\u5305\u539f\u7406',
                 slugs: [
@@ -62826,7 +62835,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/index.md',
-                updatedTime: 1650557673e3,
+                updatedTime: 1651810635e3,
                 nav: {
                   order: 3,
                   path: '/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5',
@@ -62850,7 +62859,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5/algorithm/index.md',
-                updatedTime: 1650557673e3,
+                updatedTime: 1651810635e3,
                 order: 1,
                 slugs: [
                   { depth: 1, value: '\u7b97\u6cd5', heading: '\u7b97\u6cd5' },
@@ -63327,7 +63336,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/index.md',
-                updatedTime: 1645081323e3,
+                updatedTime: 1651810635e3,
                 nav: { title: '\u6846\u67b6', order: 2, path: '/\u6846\u67b6' },
                 toc: 'menu',
                 slugs: [{ depth: 1, value: '\u6846\u67b6', heading: '\u6846\u67b6' }],
@@ -63341,7 +63350,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/React/index.md',
-                updatedTime: 1644981961e3,
+                updatedTime: 1651810635e3,
                 slugs: [{ depth: 2, value: 'React', heading: 'react' }],
                 title: 'React',
                 nav: { path: '/\u6846\u67b6', title: '\u6846\u67b6' },
@@ -63355,7 +63364,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/Vue/KeepAlive.md',
-                updatedTime: 1651470667997,
+                updatedTime: 1651810635e3,
                 slugs: [],
                 nav: { path: '/\u6846\u67b6', title: '\u6846\u67b6' },
                 group: { path: '/\u6846\u67b6/vue', title: 'Vue' },
@@ -63369,7 +63378,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/Vue/TODO.md',
-                updatedTime: 1651470273194,
+                updatedTime: 1651810635e3,
                 title: 'TODO',
                 order: 1,
                 slugs: [
@@ -63476,7 +63485,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/Vue/Vue3-proxy.md',
-                updatedTime: 1651470432794,
+                updatedTime: 1651810635e3,
                 slugs: [],
                 nav: { path: '/\u6846\u67b6', title: '\u6846\u67b6' },
                 group: { path: '/\u6846\u67b6/vue', title: 'Vue' },
@@ -63490,7 +63499,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/Vue/Vue3-ref\u3001toRef\u3001toRefs\u3001reactive.md',
-                updatedTime: 1651638448679,
+                updatedTime: 1651810635e3,
                 slugs: [
                   {
                     depth: 1,
@@ -63510,7 +63519,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/Vue/Vue3-watch-watchEffect.md',
-                updatedTime: 1646045437671,
+                updatedTime: 1651810635e3,
                 title: 'watch\u4e0ewatchEffect\u7684\u533a\u522b',
                 order: 4,
                 toc: 'menu',
@@ -63532,7 +63541,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/Vue/VueRouter.md',
-                updatedTime: 1651470768282,
+                updatedTime: 1651810635e3,
                 slugs: [],
                 nav: { path: '/\u6846\u67b6', title: '\u6846\u67b6' },
                 group: { path: '/\u6846\u67b6/vue', title: 'Vue' },
@@ -63546,7 +63555,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/Vue/uni-app \u5f00\u53d1\u6280\u5de7.md',
-                updatedTime: 1651810497388,
+                updatedTime: 1651810778896,
                 slugs: [
                   {
                     depth: 1,
@@ -63561,8 +63570,8 @@
                   { depth: 3, value: '1.1 pages.json', heading: '11-pagesjson' },
                   {
                     depth: 4,
-                    value: '1.1.1 \u7ec4\u4ef6\u6ce8\u518ceasycom',
-                    heading: '111-\u7ec4\u4ef6\u6ce8\u518ceasycom',
+                    value: '1.1.1 \u7ec4\u4ef6\u6ce8\u518c easycom',
+                    heading: '111-\u7ec4\u4ef6\u6ce8\u518c-easycom',
                   },
                   {
                     depth: 4,
@@ -63587,8 +63596,8 @@
                   },
                   {
                     depth: 2,
-                    value: '\u4e8c\u3001\u4ee3\u7801Coding',
-                    heading: '\u4e8c\u4ee3\u7801coding',
+                    value: '\u4e8c\u3001\u4ee3\u7801 Coding',
+                    heading: '\u4e8c\u4ee3\u7801-coding',
                   },
                   {
                     depth: 3,
@@ -63597,7 +63606,7 @@
                   },
                   { depth: 3, value: '2.2 \u8def\u7531', heading: '22-\u8def\u7531' },
                   { depth: 4, value: '2.2.1 getCurrentPages', heading: '221-getcurrentpages' },
-                  { depth: 4, value: '2.2.2 \u9690\u85cfAPI', heading: '222-\u9690\u85cfapi' },
+                  { depth: 4, value: '2.2.2 \u9690\u85cf API', heading: '222-\u9690\u85cf-api' },
                   {
                     depth: 3,
                     value: '2.3 \u6761\u4ef6\u7f16\u8bd1',
@@ -63605,8 +63614,8 @@
                   },
                   {
                     depth: 2,
-                    value: '\u4e09\u3001Devtools\u4f7f\u7528',
-                    heading: '\u4e09devtools\u4f7f\u7528',
+                    value: '\u4e09\u3001Devtools \u4f7f\u7528',
+                    heading: '\u4e09devtools-\u4f7f\u7528',
                   },
                   {
                     depth: 3,
@@ -63661,7 +63670,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/Vue/\u72b6\u6001\u7ba1\u7406pinia.md',
-                updatedTime: 1651470380747,
+                updatedTime: 1651810635e3,
                 slugs: [],
                 nav: { path: '/\u6846\u67b6', title: '\u6846\u67b6' },
                 group: { path: '/\u6846\u67b6/vue', title: 'Vue' },
@@ -63675,7 +63684,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/Vue/\u72b6\u6001\u7ba1\u7406vuex.md',
-                updatedTime: 1650550340305,
+                updatedTime: 1651810635e3,
                 slugs: [
                   {
                     depth: 2,
@@ -63695,7 +63704,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u6846\u67b6/Vue/\u865a\u62dfdom.md',
-                updatedTime: 1646045437670,
+                updatedTime: 1651810635e3,
                 order: 3,
                 slugs: [],
                 nav: { path: '/\u6846\u67b6', title: '\u6846\u67b6' },
@@ -63957,7 +63966,7 @@
               meta: {
                 filePath:
                   'src/\u6df1\u5165\u6d45\u51fa/typescript/\u5ffd\u7565\u7c7b\u578b\u68c0\u67e5.md',
-                updatedTime: 1651393254131,
+                updatedTime: 1651810635e3,
                 slugs: [
                   {
                     depth: 1,
@@ -64095,7 +64104,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u8ba1\u7b97\u673a\u57fa\u7840/TODO.md',
-                updatedTime: 1650693589012,
+                updatedTime: 1651810635e3,
                 order: 0,
                 nav: {
                   order: 5,
@@ -64119,7 +64128,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u8ba1\u7b97\u673a\u57fa\u7840/Nodejs/TODO.md',
-                updatedTime: 1650557682807,
+                updatedTime: 1651810635e3,
                 slugs: [{ depth: 2, value: 'Nodejs', heading: 'nodejs' }],
                 title: 'Nodejs',
                 nav: {
@@ -64136,7 +64145,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u8ba1\u7b97\u673a\u57fa\u7840/\u64cd\u4f5c\u7cfb\u7edf/TODO.md',
-                updatedTime: 1650473398292,
+                updatedTime: 1651810635e3,
                 slugs: [],
                 nav: {
                   path: '/\u8ba1\u7b97\u673a\u57fa\u7840',
@@ -64156,7 +64165,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u8ba1\u7b97\u673a\u57fa\u7840/\u6d4f\u89c8\u5668/TODO.md',
-                updatedTime: 1650557682834,
+                updatedTime: 1651810635e3,
                 slugs: [
                   {
                     depth: 2,
@@ -64193,7 +64202,7 @@
               meta: {
                 filePath:
                   'src/\u8ba1\u7b97\u673a\u57fa\u7840/\u6d4f\u89c8\u5668/\u6d4f\u89c8\u5668\u8f93\u5165url\u540e\u6d41\u7a0b.md',
-                updatedTime: 1650557682868,
+                updatedTime: 1651810635e3,
                 order: 100,
                 slugs: [
                   {
@@ -64226,7 +64235,7 @@
               meta: {
                 filePath:
                   'src/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/HTTP\u72b6\u6001\u7801.md',
-                updatedTime: 1650473398339,
+                updatedTime: 1651810635e3,
                 title: 'HTTP\u72b6\u6001\u7801',
                 order: 1,
                 slugs: [
@@ -64258,7 +64267,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/TODO.md',
-                updatedTime: 1650473398423,
+                updatedTime: 1651810635e3,
                 order: 0,
                 title: 'TODO',
                 slugs: [
@@ -64285,7 +64294,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/gzip\u539f\u7406.md',
-                updatedTime: 1650473398439,
+                updatedTime: 1651810635e3,
                 slugs: [
                   { depth: 1, value: 'gzip \u539f\u7406', heading: 'gzip-\u539f\u7406' },
                   {
@@ -64314,7 +64323,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/http-https.md',
-                updatedTime: 1650557683035,
+                updatedTime: 1651810635e3,
                 title: 'HTTP \u4e0e HTTPS \u7684\u533a\u522b',
                 slugs: [
                   {
@@ -64397,7 +64406,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/http1-http2.md',
-                updatedTime: 1650557683184,
+                updatedTime: 1651810635e3,
                 title: 'HTTP \u4e0e HTTP2\u7684\u533a\u522b',
                 slugs: [
                   {
@@ -64501,7 +64510,7 @@
               exact: !0,
               meta: {
                 filePath: 'src/\u8ba1\u7b97\u673a\u57fa\u7840/\u7f51\u7edc/http\u7f13\u5b58.md',
-                updatedTime: 1650473398734,
+                updatedTime: 1651810635e3,
                 slugs: [
                   { depth: 2, value: 'HTTP \u7f13\u5b58', heading: 'http-\u7f13\u5b58' },
                   {
@@ -64602,7 +64611,7 @@
               meta: {
                 filePath:
                   'src/\u8ba1\u7b97\u673a\u57fa\u7840/\u8ba1\u7b97\u673a\u7f51\u7edc/TODO.md',
-                updatedTime: 1650557683231,
+                updatedTime: 1651810635e3,
                 slugs: [
                   {
                     depth: 1,
