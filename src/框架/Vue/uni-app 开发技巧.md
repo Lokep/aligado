@@ -7,25 +7,25 @@
 
 ```markdown
 
-┌─api 用于请求方法管理 
+┌─api               用于请求方法管理 
 ├─assets  
-│ └─styles iconfont/base/var 等样式文件管理  
-├─components 符合 vue 组件规范的 uni-app 组件目录 
-│ └─comp-a.vue 可复用的 a 组件  
-├─constant 常量管理 
-├─pages 业务页面文件存放的目录 
+│ └─styles          iconfont/base/var 等样式文件管理  
+├─components        符合 vue 组件规范的 uni-app 组件目录 
+│ └─comp-a.vue      可复用的 a 组件  
+├─constant          常量管理 
+├─pages             业务页面文件存放的目录 
 │ ├─index 
-│ │ └─index.vue index 页面 
-│ └─[subpackage] 分包 
-│ └─list.vue 分包内子页面 
-├─static 存放应用引用的本地静态资源（如图片、视频等）的目录 
-├─store vuex 状态管理目录 
-├─utils 工具方法管理目录 
-├─main.js Vue 初始化入口文件 
-├─App.vue 应用配置，用来配置 App 全局样式以及监听 应用生命周期 
-├─manifest.json 配置应用名称、appid、logo、版本等打包信息，详见 
-├─pages.json 配置页面路由、导航条、选项卡等页面类信息，详见 
-└─uni.scss 这里是 uni-app 内置的常用样式变量  
+│ │ └─index.vue     index 页面 
+│ └─[subpackage]    分包 
+│ └─list.vue        分包内子页面 
+├─static            存放应用引用的本地静态资源（如图片、视频等）的目录 
+├─store             vuex状态管理目录 
+├─utils             工具方法管理目录 
+├─main.js           Vue初始化入口文件 
+├─App.vue           应用配置，用来配置 App 全局样式以及监听 应用生命周期 
+├─manifest.json     配置应用名称、appid、logo、版本等打包信息，详见 
+├─pages.json        配置页面路由、导航条、选项卡等页面类信息，详见 
+└─uni.scss          这里是 uni-app 内置的常用样式变量  
 
 ```
 
