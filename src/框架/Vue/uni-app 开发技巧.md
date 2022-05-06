@@ -184,7 +184,7 @@ export default {
 
 ### 2.1 页面组件
 
-- `Class`与`Styl`e 绑定
+- `Class`与`Style` 绑定
 
 ```vue
 <template>
