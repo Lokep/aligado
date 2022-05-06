@@ -31,13 +31,13 @@
 
 #### 1.1.1 组件注册 easycom
 
-传统 vue 组件，需要 `安装`、`引用`、`注册`，三个步骤后才能使用组件。
+传统 vue 组件，需要 `安装` 、 `引用` 、 `注册` ，三个步骤后才能使用组件。
 
 `easycom` 将其精简为一步。 只要组件安装在项目的 `components` 目录下，
 
 并符合 `components/组件名称/组件名称.vue` 目录结构，就可以不用引用、注册，直接在页面中使用。
 
-不管 `components` 目录下安装了多少组件，`easycom` 打包后会自动剔除没有使用的组件，
+不管 `components` 目录下安装了多少组件， `easycom` 打包后会自动剔除没有使用的组件，
 
 对组件库的使用尤为友好。
 
@@ -237,7 +237,7 @@ export default {
 
 - `webview` 体验优化
 
-  `webview` 中可以进行 `onLoad` 、 `onError` 监听，展示 `Loading` 、 `Empty` 等
+`webview` 中可以进行 `onLoad` 、 `onError` 监听，展示 `Loading` 、 `Empty` 等
 
 - 插槽 `Slot`
 
@@ -245,18 +245,18 @@ export default {
 
   当我们无法用 `js` 来解决时，我们可以试着换换思路，比如 `css`
 
-  ```scss
-  &__slot {
+```scss
+&__slot {
+  & + .jh-badge__content {
+    display: none;
+  }
+  &:empty {
     & + .jh-badge__content {
-      display: none;
-    }
-    &:empty {
-      & + .jh-badge__content {
-        display: block;
-      }
+      display: block;
     }
   }
-  ```
+}
+```
 
 - 兼容性
 
@@ -311,7 +311,7 @@ wx.onAppRoute((res) => {
 
 ### 2.3 [条件编译](https://uniapp.dcloud.io/tutorial/platform.html#preprocessor)
 
-就如上一条所说，我们在使用 `onAppRoute` 这个 `api` 时，只有小程序平台能够支持，并且 `uni-app` 也没有开放这个 `api`。这个时候就可以向大家介绍 `uni-app` 的条件编译。
+就如上一条所说，我们在使用 `onAppRoute` 这个 `api` 时，只有小程序平台能够支持，并且 `uni-app` 也没有开放这个 `api` 。这个时候就可以向大家介绍 `uni-app` 的条件编译。
 
 > 条件编译是用特殊的注释作为标记，在编译时根据这些特殊的注释，将注释里面的代码编译到不同平台。
 
@@ -362,7 +362,7 @@ wx.onAppRoute((res) => {
 
 工具提供代码静态依赖分析插件，方便开发者查看代码包的文件构成和依赖关系，以此优化代码包大小和内容。
 
-这个问题真正引起我的重视，是在小程序端开发`Echarts`图表时发现小程序无法真机预览、无法提交到微信公众平台。
+这个问题真正引起我的重视，是在小程序端开发 `Echarts` 图表时发现小程序无法真机预览、无法提交到微信公众平台。
 
 在经过依赖分析后发现，是主包大小超过了**2M**的限制。
 
