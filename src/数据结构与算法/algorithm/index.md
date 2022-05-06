@@ -1,7 +1,5 @@
 ---
 order: 1
-nav:
-  order: 3
 ---
 
 # 算法

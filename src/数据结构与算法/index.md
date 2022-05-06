@@ -1,3 +1,8 @@
+---
+nav:
+  order: 3
+---
+
 # 数据结构与算法
 
 [数据结构与算法](http://www.conardli.top/docs/)

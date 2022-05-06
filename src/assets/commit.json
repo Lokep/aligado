@@ -1,8 +1,14 @@
 [
   {
-    "commit": 1650557646964,
+    "commit": 1651810606998,
     "author": "lokep\n <iamlokep@163.com\n>",
-    "date": "2022-04-21T16:14:06.964Z",
+    "date": "2022-05-06T04:16:46.998Z",
+    "message": "docs: uni-app开发技巧"
+  },
+  {
+    "commit": "d85b3da",
+    "author": "lokep <iamlokep@163.com>",
+    "date": "Fri Apr 22 00:14:33 2022 +0800",
     "message": "docs: webpack 主题"
   },
   {
